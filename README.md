@@ -14,11 +14,11 @@ I work at the intersection of **responsible AI**, **data science**, **mathematic
 
 ## Featured work
 
-### [Fairshift Lab](https://github.com/lindgreendavid/fairshift-lab)
+### [Fairshift Lab — open the interactive laboratory](https://fairshift-lab.lindgreendavid.chatgpt.site)
 
-A reproducible, interactive Responsible AI laboratory for studying how predictive performance and group-fairness measurements behave when deployment data differs from training data. Version 0.2.0 combines controlled distribution interventions with stratified bootstrap intervals, live source-to-target visualizations, explicit interpretation limits, primary-source research documentation, full Python coverage, and cross-stack security automation. [View the v0.2.0 release](https://github.com/lindgreendavid/fairshift-lab/releases/tag/v0.2.0).
+A reproducible Responsible AI laboratory for exploring how distribution shift changes probability calibration, threshold-sensitive decisions, performance, and group-fairness measurements. Visitors can manipulate the population and decision threshold, compare source and target reliability, and inspect uncertainty without installing anything. Version 0.3.1 separates training, calibration, and evaluation data while keeping interpretation limits visible. [Source code](https://github.com/lindgreendavid/fairshift-lab) · [v0.3.1 release](https://github.com/lindgreendavid/fairshift-lab/releases/tag/v0.3.1)
 
-`Python` · `TypeScript` · `Responsible AI` · `Distribution Shift` · `Uncertainty Quantification` · `Scientific UI/UX`
+`Python` · `TypeScript` · `Probability Calibration` · `Threshold Sensitivity` · `Responsible AI` · `Scientific UI/UX`
 
 ### [Kryptographie WASM](https://github.com/lindgreendavid/kryptographie-wasm)
 
