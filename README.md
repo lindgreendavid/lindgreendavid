@@ -27,6 +27,12 @@ A reproducible reanalysis of the real, public CHIME/FRB Catalog 1 (536 fast radi
 
 `Python` · `TypeScript` · `Astrophysics` · `Statistical Inference` · `Real Public Data` · `Scientific UI/UX`
 
+### [Folding's Edge — open the interactive laboratory](https://foldings-edge-interactive.lindgreendavid.workers.dev)
+
+A reproducible test of how well AlphaFold2's per-residue confidence score (pLDDT) predicts real, curated intrinsic disorder. 387 human proteins from DisProt (228,662 residues) joined to real AlphaFold DB predictions by UniProt accession — no model training, just a fresh statistical test of a specific published claim (Alderson et al. 2023, PNAS). Version 0.1.0 confirms pLDDT is a strong overall signal (43-point median gap, p≈0) but names exactly where it fails: precision collapses on regions that can conditionally fold (6.3% vs. 31% baseline) and on disorder evidenced by HDX-MS, with specific proteins named rather than only aggregate rates. [Source code](https://github.com/lindgreendavid/foldings-edge) · [Research report](https://github.com/lindgreendavid/foldings-edge/blob/main/docs/research-report.md)
+
+`Python` · `TypeScript` · `Structural Biology` · `Statistical Inference` · `Real Public Data` · `Scientific UI/UX`
+
 ### [Three-Body Lab — open the interactive laboratory](https://three-body-lab-interactive.lindgreendavid.workers.dev)
 
 A reproducible computational-physics laboratory mapping the boundary between quasi-periodic and chaotic motion in the planar gravitational three-body problem, via empirically estimated Lyapunov exponents. Visitors can watch a reference trajectory and a near-identical perturbed twin diverge in real time, export a clip of the divergence, and inspect a frozen, preregistered sweep that tests the figure-eight, Lagrange equilateral, and Euler collinear special solutions against that boundary. Version 0.1.0 does not claim to solve the three-body problem — it reports what a disclosed numerical method actually finds, including two hypotheses it falsified. [Source code](https://github.com/lindgreendavid/three-body-lab) · [Research report](https://github.com/lindgreendavid/three-body-lab/blob/main/docs/research-report.md)
@@ -59,7 +65,7 @@ A second track, kept visually and editorially separate from the responsible-AI/d
 | --- | --- | --- | --- |
 | [Three-Body Lab](https://three-body-lab-interactive.lindgreendavid.workers.dev) | Physics | Where does the planar three-body problem cross from quasi-periodic to chaotic, and do the classical special solutions sit at that boundary? | **Shipped — v0.1.0 live.** A single Lyapunov-exponent threshold didn't cleanly separate the tested grid, and the Lagrange/Euler special solutions measured *less* stable than generic configurations — consistent with Routh's 1875 instability criterion. |
 | [FRB Atlas](https://frb-atlas-interactive.lindgreendavid.workers.dev) | Astrophysics | Using the real, public CHIME/FRB Catalog 1, do repeating and non-repeating fast radio bursts actually show indistinguishable dispersion measures, as the original catalog paper concludes? | **Shipped — v0.1.0 live.** Pulse-width/bandwidth differences replicated cleanly (validating the method); dispersion measure did not — a discrepancy traced to two repeaters dominating the sample, reported rather than hidden. |
-| Folding's Edge | Biology | Where does AlphaFold-class structure prediction break down (e.g. intrinsically disordered regions), and why? | Proposed — next up for scoping. Needs heavier ML infrastructure than the first two, so it's being scoped carefully rather than rushed. |
+| [Folding's Edge](https://foldings-edge-interactive.lindgreendavid.workers.dev) | Biology | Does AlphaFold2's pLDDT confidence score predict real, curated intrinsic disorder — and where does that relationship break down? | **Shipped — v0.1.0 live.** Confirms pLDDT as a strong overall disorder signal, but precision collapses specifically on conditionally-folding regions and HDX-MS-evidenced disorder — named failure cases, not just aggregate rates. |
 
 ## Engineering principles
 
