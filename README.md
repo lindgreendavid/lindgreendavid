@@ -11,6 +11,7 @@ I work at the intersection of **responsible AI**, **data science**, **mathematic
 - Explainable, accessible research interfaces
 - Mathematical algorithms in Rust and WebAssembly
 - Data quality, observability, and reproducible analytics
+- Accessible science communication: physics, astrophysics, and biology, built the same way — a bounded question, real evidence, and honest limits, not a hot take
 
 ## Featured work
 
@@ -34,6 +35,21 @@ An interactive cryptography learning application whose cryptographic domain logi
 | Climate Twin Frankfurt | How can local heat risk be communicated with uncertainty? | Time series, geospatial data, scientific UX |
 | Mathlab WASM | How can numerical algorithms be made inspectable? | Mathematics, Rust/WASM, interactive teaching |
 | Data Contract Observatory | When do public-data pipelines silently become unreliable? | Data engineering, observability, drift detection |
+
+## Science communication & research track
+
+A second track, kept visually and editorially separate from the responsible-AI/data-engineering work above. Same standard: every piece states what it contributes, what it found, and what remains unresolved — not just an explanation of settled science. Two formats:
+
+- **Explainer builds** — an interactive simulation, design, or animation of a real phenomenon currently being discussed or studied, with the underlying model and its limits made explicit.
+- **Research notes** — a short, evidence-grounded, accessible thesis on a genuinely unsolved or open problem, built on public data or literature rather than speculation.
+
+| Project idea | Field | Open question | Planned contribution |
+| --- | --- | --- | --- |
+| Three-Body Sandbox | Physics | Why does the three-body problem resist a general closed-form solution, and what does the resulting chaos actually look like as you vary initial conditions? | Interactive n-body simulator with Lyapunov-exponent visualization; explainer animation of sensitive dependence on initial conditions |
+| Fast Radio Burst Atlas | Astrophysics | What do public FRB catalogs (e.g. CHIME/FRB) actually support about progenitor theories, and what's still genuinely open? | Real catalog data analysis, reproducible statistical findings, an honest summary of what the data does and doesn't settle |
+| Folding's Edge | Biology | Where does AlphaFold-class structure prediction break down (e.g. intrinsically disordered regions), and why? | Analysis against public structure data, accessible thesis on the boundary of current protein-structure prediction |
+
+Status: track proposed, no repository yet — first project to be scoped and built next.
 
 ## Engineering principles
 
