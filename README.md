@@ -59,6 +59,12 @@ A reproducible measurement of Frankfurt's urban heat island from real DWD statio
 
 `Python` · `TypeScript` · `Climate Data` · `Statistical Inference` · `Real Public Data` · `Scientific UI/UX`
 
+### [Neuro Signal Lab — inspect the EEG result](https://lindgreendavid.github.io/neuro-signal-lab/)
+
+A reproducible cross-dataset test of a fixed P3b endpoint in public EEG data. The electrode, 300–600 ms window, target-minus-standard contrast, artifact threshold, participant-level inference, and stopping rule were frozen before the external amplitudes were inspected. All 13 OpenNeuro participants showed a positive contrast; the mean was +5.65 µV with a 95% confidence interval of [+4.83, +6.48]. The interactive laboratory exposes every participant and both prespecified artifact-threshold sensitivity analyses while keeping the confirmatory endpoint visibly fixed. [Source code](https://github.com/lindgreendavid/neuro-signal-lab) · [Research report](https://github.com/lindgreendavid/neuro-signal-lab/blob/main/docs/research-report.md)
+
+`Python` · `EEG` · `Neuroscience` · `Statistical Inference` · `OpenNeuro` · `Scientific UI/UX`
+
 ### [Kryptographie WASM](https://github.com/lindgreendavid/kryptographie-wasm)
 
 An interactive cryptography learning application whose cryptographic domain logic is implemented in Rust and delivered through WebAssembly. It combines mathematical explanation, typed error handling, official test vectors, browser tests, accessibility checks, and a documented security model.
@@ -89,12 +95,11 @@ A second track, editorially distinct from the responsible-AI/data-engineering wo
 | [Three-Body Lab](https://three-body-lab-interactive.lindgreendavid.workers.dev) | Physics | Where does the planar three-body problem cross from quasi-periodic to chaotic, and do the classical special solutions sit at that boundary? | **Shipped — v0.1.0 live.** A single Lyapunov-exponent threshold didn't cleanly separate the tested grid, and the Lagrange/Euler special solutions measured *less* stable than generic configurations — consistent with Routh's 1875 instability criterion. |
 | [FRB Atlas](https://frb-atlas-interactive.lindgreendavid.workers.dev) | Astrophysics | Using the real, public CHIME/FRB Catalog 1, do repeating and non-repeating fast radio bursts actually show indistinguishable dispersion measures, as the original catalog paper concludes? | **Shipped — v0.1.0 live.** Pulse-width/bandwidth differences replicated cleanly (validating the method); dispersion measure did not — a discrepancy traced to two repeaters dominating the sample, reported rather than hidden. |
 | [Folding's Edge](https://foldings-edge-interactive.lindgreendavid.workers.dev) | Biology | Does AlphaFold2's pLDDT confidence score predict real, curated intrinsic disorder — and where does that relationship break down? | **Shipped — v0.1.0 live.** Confirms pLDDT as a strong overall disorder signal, but precision collapses specifically on conditionally-folding regions and HDX-MS-evidenced disorder — named failure cases, not just aggregate rates. |
-| [Neuro Signal Lab](https://github.com/lindgreendavid/neuro-signal-lab) | Neuroscience | Does a P3b target enhancement survive a fixed, independently applied EEG measurement? | **Research and interactive laboratory published.** All 13 OpenNeuro participants had a positive fixed Pz 300–600 ms target-minus-standard contrast; mean +5.65 µV, 95% CI [+4.83, +6.48]. |
+| [Neuro Signal Lab](https://lindgreendavid.github.io/neuro-signal-lab/) | Neuroscience | Does a P3b target enhancement survive a fixed, independently applied EEG measurement? | **Research and interactive laboratory published.** All 13 OpenNeuro participants had a positive fixed Pz 300–600 ms target-minus-standard contrast; mean +5.65 µV, 95% CI [+4.83, +6.48]. [Source](https://github.com/lindgreendavid/neuro-signal-lab) |
 
-All three original ideas for this track are shipped and collected in Lab Notes. Neuro Signal Lab is
-the selected next-wave build: its primary-source pass and confirmatory EEG analysis are complete,
-and the interactive laboratory is in development. The chemistry reproducibility candidate remains
-in [ROADMAP.md](ROADMAP.md) for a later wave.
+All four studies in this track are shipped and collected in Lab Notes, including Neuro Signal Lab's
+confirmed EEG result, interactive participant explorer, and sensitivity analysis. The chemistry
+reproducibility candidate remains in [ROADMAP.md](ROADMAP.md) for a later wave.
 
 ## Engineering principles
 
