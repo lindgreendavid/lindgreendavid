@@ -1,8 +1,12 @@
+<p align="center">
+  <img src="brand/lab-notes-mark.svg" width="112" alt="Lab Notes research-cycle mark">
+</p>
+
 # David Lindgreen
 
 ### Building trustworthy data products from mathematical foundations to accessible interfaces
 
-I work at the intersection of **responsible AI**, **data science**, **mathematics**, **analytics engineering**, and **scientific UI/UX**. My projects emphasize explicit assumptions, reproducible experiments, strong software architecture, and honest limits—not just attractive outputs.
+I work at the intersection of **responsible AI**, **data science**, **mathematics**, **analytics engineering**, and **scientific UI/UX**. My projects emphasize explicit assumptions, reproducible experiments, strong software architecture, and honest limits—not just attractive outputs. The portfolio shares a versioned [Lab Notes identity and research-interface standard](brand/README.md): one recognisable family, with discipline-specific accents that communicate rather than decorate.
 
 ## Current focus
 
@@ -75,7 +79,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 
 ## Science communication & research track
 
-A second track, kept visually and editorially separate from the responsible-AI/data-engineering work above — each project gets its own distinct visual identity rather than a reskin of the last one. Same standard throughout: every piece states what it contributes, what it found, and what remains unresolved — not just an explanation of settled science. Two formats:
+A second track, editorially distinct from the responsible-AI/data-engineering work above. Every project belongs to the same Lab Notes identity system while retaining a field-specific accent and explanatory visual language. Same standard throughout: every piece states what it contributes, what it found, and what remains unresolved — not just an explanation of settled science. Two formats:
 
 - **Explainer builds** — an interactive simulation, design, or animation of a real phenomenon currently being discussed or studied, with the underlying model and its limits made explicit.
 - **Research notes** — a short, evidence-grounded, accessible thesis built on public data or literature, testing a specific claim rather than speculating.
@@ -85,7 +89,7 @@ A second track, kept visually and editorially separate from the responsible-AI/d
 | [Three-Body Lab](https://three-body-lab-interactive.lindgreendavid.workers.dev) | Physics | Where does the planar three-body problem cross from quasi-periodic to chaotic, and do the classical special solutions sit at that boundary? | **Shipped — v0.1.0 live.** A single Lyapunov-exponent threshold didn't cleanly separate the tested grid, and the Lagrange/Euler special solutions measured *less* stable than generic configurations — consistent with Routh's 1875 instability criterion. |
 | [FRB Atlas](https://frb-atlas-interactive.lindgreendavid.workers.dev) | Astrophysics | Using the real, public CHIME/FRB Catalog 1, do repeating and non-repeating fast radio bursts actually show indistinguishable dispersion measures, as the original catalog paper concludes? | **Shipped — v0.1.0 live.** Pulse-width/bandwidth differences replicated cleanly (validating the method); dispersion measure did not — a discrepancy traced to two repeaters dominating the sample, reported rather than hidden. |
 | [Folding's Edge](https://foldings-edge-interactive.lindgreendavid.workers.dev) | Biology | Does AlphaFold2's pLDDT confidence score predict real, curated intrinsic disorder — and where does that relationship break down? | **Shipped — v0.1.0 live.** Confirms pLDDT as a strong overall disorder signal, but precision collapses specifically on conditionally-folding regions and HDX-MS-evidenced disorder — named failure cases, not just aggregate rates. |
-| [Neuro Signal Lab](https://github.com/lindgreendavid/neuro-signal-lab) | Neuroscience | Does a P3b target enhancement survive a fixed, independently applied EEG measurement? | **Research published; interactive laboratory in development.** All 13 OpenNeuro participants had a positive fixed Pz 300–600 ms target-minus-standard contrast; mean +5.65 µV, 95% CI [+4.83, +6.48]. |
+| [Neuro Signal Lab](https://github.com/lindgreendavid/neuro-signal-lab) | Neuroscience | Does a P3b target enhancement survive a fixed, independently applied EEG measurement? | **Research and interactive laboratory published.** All 13 OpenNeuro participants had a positive fixed Pz 300–600 ms target-minus-standard contrast; mean +5.65 µV, 95% CI [+4.83, +6.48]. |
 
 All three original ideas for this track are shipped and collected in Lab Notes. Neuro Signal Lab is
 the selected next-wave build: its primary-source pass and confirmatory EEG analysis are complete,
