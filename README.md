@@ -85,11 +85,12 @@ A second track, kept visually and editorially separate from the responsible-AI/d
 | [Three-Body Lab](https://three-body-lab-interactive.lindgreendavid.workers.dev) | Physics | Where does the planar three-body problem cross from quasi-periodic to chaotic, and do the classical special solutions sit at that boundary? | **Shipped — v0.1.0 live.** A single Lyapunov-exponent threshold didn't cleanly separate the tested grid, and the Lagrange/Euler special solutions measured *less* stable than generic configurations — consistent with Routh's 1875 instability criterion. |
 | [FRB Atlas](https://frb-atlas-interactive.lindgreendavid.workers.dev) | Astrophysics | Using the real, public CHIME/FRB Catalog 1, do repeating and non-repeating fast radio bursts actually show indistinguishable dispersion measures, as the original catalog paper concludes? | **Shipped — v0.1.0 live.** Pulse-width/bandwidth differences replicated cleanly (validating the method); dispersion measure did not — a discrepancy traced to two repeaters dominating the sample, reported rather than hidden. |
 | [Folding's Edge](https://foldings-edge-interactive.lindgreendavid.workers.dev) | Biology | Does AlphaFold2's pLDDT confidence score predict real, curated intrinsic disorder — and where does that relationship break down? | **Shipped — v0.1.0 live.** Confirms pLDDT as a strong overall disorder signal, but precision collapses specifically on conditionally-folding regions and HDX-MS-evidenced disorder — named failure cases, not just aggregate rates. |
+| Neuro Signal Lab | Neuroscience | Does a P3b target enhancement survive a fixed, independently applied EEG measurement? | **Research complete; interactive laboratory in development.** All 13 OpenNeuro participants had a positive fixed Pz 300–600 ms target-minus-standard contrast; mean +5.65 µV, 95% CI [+4.83, +6.48]. |
 
-All three original ideas for this track are now shipped and collected in Lab Notes. Two researched,
-grounded candidates for the next wave — a neuroscience replication (OpenNeuro) and a chemistry
-reproducibility check (Open Reaction Database) — are in [ROADMAP.md](ROADMAP.md), pending a full
-research pass before either becomes a protocol.
+All three original ideas for this track are shipped and collected in Lab Notes. Neuro Signal Lab is
+the selected next-wave build: its primary-source pass and confirmatory EEG analysis are complete,
+and the interactive laboratory is in development. The chemistry reproducibility candidate remains
+in [ROADMAP.md](ROADMAP.md) for a later wave.
 
 ## Engineering principles
 

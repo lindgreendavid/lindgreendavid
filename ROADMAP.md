@@ -13,7 +13,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | Project | Track | Status |
 | --- | --- | --- |
 | [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | Science communication / portfolio infrastructure | Live and continuously expanding with project articles, an evidence explorer, a study guide, an accessibility contract, and CI. |
-| Next research selection | Science research | Run a full primary-source research pass on the neuroscience and chemistry candidates below, then select one bounded replication question before writing any protocol. |
+| Neuro Signal Lab | Neuroscience | P3b cross-dataset protocol frozen before signal inspection; all 13 OpenNeuro participants showed a positive fixed target-minus-standard contrast. Interactive laboratory in development. |
 
 ## Shipped in the current wave
 
@@ -52,17 +52,24 @@ candidates for the next wave, in fields not yet covered by this track:
 
 ### A neuroscience replication (field: neuroscience)
 
-**Candidate question:** does a specific, well-cited neuroimaging finding replicate on a fresh,
-independently-drawn sample from public data?
+**Selected question:** does ERP CORE's fixed P3b endpoint — target-minus-standard mean voltage at Pz
+from 300–600 ms — remain positive in an independently hosted public auditory-oddball EEG dataset?
+
+**Status:** the primary-source pass, metadata-only audit, frozen protocol, and confirmatory analysis
+are complete in the local Neuro Signal Lab repository. Using OpenNeuro `ds003061` v1.1.0, the mean
+participant contrast was +5.65 µV, 95% CI [+4.83, +6.48], and all 13 participant contrasts were
+positive. This is a cross-paradigm robustness confirmation, not a literal direct replication,
+because ERP CORE used a visual task and the external dataset used an auditory task. The public
+interactive laboratory is the next delivery step.
 
 **Why this is tractable:** [OpenNeuro](https://openneuro.org) is a real, actively maintained,
 BIDS-standardized open archive of 600+ neuroimaging datasets (fMRI, EEG, MEG) covering 20,000+
 participants, backed by a peer-reviewed infrastructure paper (Markiewicz et al. 2021, *eLife*,
 "The OpenNeuro resource for sharing of neuroscience data" — cite and verify this paper's exact
-claims before building, the same discipline used for every other project in this series). This
-would need a specific, narrow, well-defined published finding chosen as the replication target
-before any protocol is written — the same way Folding's Edge picked one specific paper (Alderson
-et al. 2023) rather than "neuroscience" in general.
+claims before building, the same discipline used for every other project in this series). The
+selected endpoint came from Kappenman et al.'s ERP CORE recommendations and was fixed before
+external EEG amplitudes were inspected. Raw data stay outside Git, included recordings are verified
+against pinned DataLad identities, and one truncated run is disclosed rather than silently replaced.
 
 ### A chemistry reproducibility check (field: chemistry)
 
@@ -77,9 +84,8 @@ aren't always published. This is a strong fit for this portfolio's standing bias
 whether the claimed result actually holds up," matching what FRB Atlas and Folding's Edge already
 did in their own fields.
 
-Both of these need a full research pass (like the one that grounded FRB Atlas's exact dataset and
-citation before that project was scoped) before a protocol is written — this roadmap entry is the
-starting point for that research, not a substitute for it.
+The neuroscience pass is complete and implementation is underway. The chemistry candidate still
+needs the same full research pass before any protocol is written.
 
 ## Longer-horizon / not yet scoped
 
