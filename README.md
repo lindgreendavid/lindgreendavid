@@ -35,6 +35,18 @@ A reproducible Responsible AI laboratory for exploring how distribution shift ch
 
 `Python` · `TypeScript` · `Probability Calibration` · `Distribution Shift` · `Responsible AI` · `Scientific UI/UX`
 
+### [Data Contract Observatory — break a public-data pipeline safely](https://lindgreendavid.github.io/data-contract-observatory/)
+
+An inspectable observability case study built on the European Central Bank's official daily
+US dollar/euro reference-rate series. Protocol 1.0.0 freezes the series identity, schema,
+TARGET-day freshness rule, value constraints, and a separately labelled robust statistical review
+signal before the full live evaluation. The first recorded run inspected 385 observations, passed
+every hard contract check, and emitted no review signal. The interactive failure lab lets visitors
+remove a required field, change the series identity, simulate lateness, or inject an extreme return
+while showing exactly which conclusion each outcome permits. [Source code](https://github.com/lindgreendavid/data-contract-observatory) · [Frozen protocol](https://github.com/lindgreendavid/data-contract-observatory/blob/main/docs/protocol.md)
+
+`Python` · `Data Contracts` · `Observability` · `SDMX` · `Public Data` · `Scientific UI/UX`
+
 ### [FRB Atlas — open the interactive laboratory](https://frb-atlas-interactive.lindgreendavid.workers.dev)
 
 A reproducible reanalysis of the real, public CHIME/FRB Catalog 1 (536 fast radio bursts, Amiri et al. 2021): does the dispersion measure of repeating bursts actually differ from non-repeating ones, as the original paper's own preregistered test claims it doesn't? Version 0.1.0 cleanly replicates the paper's pulse-width/bandwidth finding as a validation check, then reports a genuine discrepancy on dispersion measure — traced honestly to sample composition (two prolific nearby repeaters dominating the burst sample) rather than smoothed over. [Source code](https://github.com/lindgreendavid/frb-atlas) · [Research report](https://github.com/lindgreendavid/frb-atlas/blob/main/docs/research-report.md)
@@ -81,7 +93,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 | Fairshift Lab | Does measured fairness remain stable under distribution shift, noise, and misspecification? | ML evaluation, causal clarity, research rigor | Shipped, v1.3.0 |
 | [Climate Twin Frankfurt](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev) | How much warmer is urban Frankfurt than its rural surroundings, with what uncertainty, and how has that gap trended over time? | Real paired urban/rural DWD Climate Data Center station records | Shipped, v0.1.0 |
 | Mathlab WASM | How can numerical algorithms be made inspectable? | Mathematics, Rust/WASM, interactive teaching | Not yet scoped |
-| Data Contract Observatory | When do public-data pipelines silently become unreliable? | Data engineering, observability, drift detection | Not yet scoped |
+| [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | When does a public-data response cease to satisfy its declared operational contract? | Official ECB SDMX series, machine-readable contract, TARGET calendar, synthetic mutation tests | **Public v0.1.0 foundation.** Protocol frozen, live evaluation and interactive failure laboratory shipped. [Source](https://github.com/lindgreendavid/data-contract-observatory) |
 
 ## Science communication & research track
 
