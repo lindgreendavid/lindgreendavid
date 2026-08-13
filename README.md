@@ -21,6 +21,12 @@ A reproducible Responsible AI laboratory for exploring how distribution shift ch
 
 `Python` · `TypeScript` · `Probability Calibration` · `Threshold Sensitivity` · `Responsible AI` · `Scientific UI/UX`
 
+### [Three-Body Lab — open the interactive laboratory](https://three-body-lab-interactive.lindgreendavid.workers.dev)
+
+A reproducible computational-physics laboratory mapping the boundary between quasi-periodic and chaotic motion in the planar gravitational three-body problem, via empirically estimated Lyapunov exponents. Visitors can watch a reference trajectory and a near-identical perturbed twin diverge in real time, and inspect a frozen, preregistered sweep that tests the figure-eight, Lagrange equilateral, and Euler collinear special solutions against that boundary. Version 0.1.0 does not claim to solve the three-body problem — it reports what a disclosed numerical method actually finds, including two hypotheses it falsified. [Source code](https://github.com/lindgreendavid/three-body-lab) · [Research report](https://github.com/lindgreendavid/three-body-lab/blob/main/docs/research-report.md)
+
+`Python` · `TypeScript` · `Computational Physics` · `Chaos Theory` · `Numerical Integration` · `Scientific UI/UX`
+
 ### [Kryptographie WASM](https://github.com/lindgreendavid/kryptographie-wasm)
 
 An interactive cryptography learning application whose cryptographic domain logic is implemented in Rust and delivered through WebAssembly. It combines mathematical explanation, typed error handling, official test vectors, browser tests, accessibility checks, and a documented security model.
@@ -43,13 +49,13 @@ A second track, kept visually and editorially separate from the responsible-AI/d
 - **Explainer builds** — an interactive simulation, design, or animation of a real phenomenon currently being discussed or studied, with the underlying model and its limits made explicit.
 - **Research notes** — a short, evidence-grounded, accessible thesis on a genuinely unsolved or open problem, built on public data or literature rather than speculation.
 
-| Project idea | Field | Open question | Planned contribution |
+| Project | Field | Open question | Status |
 | --- | --- | --- | --- |
-| Three-Body Sandbox | Physics | Why does the three-body problem resist a general closed-form solution, and what does the resulting chaos actually look like as you vary initial conditions? | Interactive n-body simulator with Lyapunov-exponent visualization; explainer animation of sensitive dependence on initial conditions |
-| Fast Radio Burst Atlas | Astrophysics | What do public FRB catalogs (e.g. CHIME/FRB) actually support about progenitor theories, and what's still genuinely open? | Real catalog data analysis, reproducible statistical findings, an honest summary of what the data does and doesn't settle |
-| Folding's Edge | Biology | Where does AlphaFold-class structure prediction break down (e.g. intrinsically disordered regions), and why? | Analysis against public structure data, accessible thesis on the boundary of current protein-structure prediction |
+| [Three-Body Lab](https://three-body-lab-interactive.lindgreendavid.workers.dev) | Physics | Where does the planar three-body problem cross from quasi-periodic to chaotic, and do the classical special solutions sit at that boundary? | **Shipped — v0.1.0 live.** Headline finding: a single Lyapunov-exponent threshold didn't cleanly separate the tested grid, and the Lagrange/Euler special solutions measured *less* stable than generic configurations — consistent with Routh's classical instability criterion. |
+| Fast Radio Burst Atlas | Astrophysics | What do public FRB catalogs (e.g. CHIME/FRB) actually support about progenitor theories, and what's still genuinely open? | Proposed — real catalog data analysis, reproducible statistical findings, an honest summary of what the data does and doesn't settle |
+| Folding's Edge | Biology | Where does AlphaFold-class structure prediction break down (e.g. intrinsically disordered regions), and why? | Proposed — analysis against public structure data, accessible thesis on the boundary of current protein-structure prediction |
 
-Status: track proposed, no repository yet — first project to be scoped and built next.
+Status: first project shipped (Three-Body Lab, v0.1.0); Fast Radio Burst Atlas and Folding's Edge are next up for scoping.
 
 ## Engineering principles
 
