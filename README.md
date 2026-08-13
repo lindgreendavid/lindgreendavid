@@ -15,6 +15,17 @@ I work at the intersection of **responsible AI**, **data science**, **mathematic
 
 ## Featured work
 
+### [Lab Notes — read and explore the science hub](https://github.com/lindgreendavid/blog)
+
+An accessible editorial home for the portfolio's research: five plain-language articles, a
+filterable evidence explorer, and a reusable four-step guide for reading scientific results.
+Every project is presented through the same inspectable structure — question, evidence, finding,
+and boundary — with direct routes into the underlying interactive laboratory and source code.
+The production site is complete and tested; its public Cloudflare address will be added here after
+fresh deployment credentials are configured. [Source code](https://github.com/lindgreendavid/blog)
+
+`TypeScript` · `Science Communication` · `Interactive Learning` · `Accessibility` · `Scientific UI/UX`
+
 ### [Fairshift Lab — open the interactive laboratory](https://fairshift-lab.lindgreendavid.chatgpt.site)
 
 A reproducible Responsible AI laboratory for exploring how distribution shift changes probability calibration, threshold-sensitive decisions, performance, and group-fairness measurements. Visitors can manipulate the population and decision threshold, compare source and target reliability, and inspect uncertainty without installing anything. Version 1.3.0 adds a Robustness Lab — a preregistered synthetic stress study comparing two model families under label noise, measurement error, an unobserved subgroup, and structural misspecification — on top of v1.1's Policy Studio and v1.2's governed external evidence from real 1994 Census data. [Source code](https://github.com/lindgreendavid/fairshift-lab) · [v1.3.0 release](https://github.com/lindgreendavid/fairshift-lab/releases/tag/v1.3.0)
@@ -57,6 +68,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 
 | Project | Question | Primary evidence | Status |
 | --- | --- | --- | --- |
+| [Lab Notes](https://github.com/lindgreendavid/blog) | How can five technical studies become an inspectable, reusable learning experience? | Verified project reports, article citations, interactive laboratories | Site complete; live deployment pending fresh credentials |
 | Fairshift Lab | Does measured fairness remain stable under distribution shift, noise, and misspecification? | ML evaluation, causal clarity, research rigor | Shipped, v1.3.0 |
 | [Climate Twin Frankfurt](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev) | How much warmer is urban Frankfurt than its rural surroundings, with what uncertainty, and how has that gap trended over time? | Real paired urban/rural DWD Climate Data Center station records | Shipped, v0.1.0 |
 | Mathlab WASM | How can numerical algorithms be made inspectable? | Mathematics, Rust/WASM, interactive teaching | Not yet scoped |
@@ -75,7 +87,10 @@ A second track, kept visually and editorially separate from the responsible-AI/d
 | [FRB Atlas](https://frb-atlas-interactive.lindgreendavid.workers.dev) | Astrophysics | Using the real, public CHIME/FRB Catalog 1, do repeating and non-repeating fast radio bursts actually show indistinguishable dispersion measures, as the original catalog paper concludes? | **Shipped — v0.1.0 live.** Pulse-width/bandwidth differences replicated cleanly (validating the method); dispersion measure did not — a discrepancy traced to two repeaters dominating the sample, reported rather than hidden. |
 | [Folding's Edge](https://foldings-edge-interactive.lindgreendavid.workers.dev) | Biology | Does AlphaFold2's pLDDT confidence score predict real, curated intrinsic disorder — and where does that relationship break down? | **Shipped — v0.1.0 live.** Confirms pLDDT as a strong overall disorder signal, but precision collapses specifically on conditionally-folding regions and HDX-MS-evidenced disorder — named failure cases, not just aggregate rates. |
 
-All three original ideas for this track are now shipped. Two researched, grounded candidates for the next wave — a neuroscience replication (OpenNeuro) and a chemistry reproducibility check (Open Reaction Database) — are in [ROADMAP.md](ROADMAP.md), pending a full research pass before either becomes a protocol.
+All three original ideas for this track are now shipped and collected in Lab Notes. Two researched,
+grounded candidates for the next wave — a neuroscience replication (OpenNeuro) and a chemistry
+reproducibility check (Open Reaction Database) — are in [ROADMAP.md](ROADMAP.md), pending a full
+research pass before either becomes a protocol.
 
 ## Engineering principles
 
