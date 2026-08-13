@@ -29,7 +29,7 @@ A reproducible reanalysis of the real, public CHIME/FRB Catalog 1 (536 fast radi
 
 ### [Folding's Edge — open the interactive laboratory](https://foldings-edge-interactive.lindgreendavid.workers.dev)
 
-A reproducible test of how well AlphaFold2's per-residue confidence score (pLDDT) predicts real, curated intrinsic disorder. 387 human proteins from DisProt (228,662 residues) joined to real AlphaFold DB predictions by UniProt accession — no model training, just a fresh statistical test of a specific published claim (Alderson et al. 2023, PNAS). Version 0.1.0 confirms pLDDT is a strong overall signal (43-point median gap, p≈0) but names exactly where it fails: precision collapses on regions that can conditionally fold (6.3% vs. 31% baseline) and on disorder evidenced by HDX-MS, with specific proteins named rather than only aggregate rates. [Source code](https://github.com/lindgreendavid/foldings-edge) · [Research report](https://github.com/lindgreendavid/foldings-edge/blob/main/docs/research-report.md)
+A reproducible test of how well AlphaFold2's per-residue confidence score (pLDDT) predicts real, curated intrinsic disorder. 387 human proteins from DisProt (228,662 residues) joined to real AlphaFold DB predictions by UniProt accession — no model training, just a fresh statistical test of a specific published claim (Alderson et al. 2023, PNAS). Version 0.1.0 confirms pLDDT is a strong overall signal (43-point median gap, p≈0) but names exactly where it fails: precision collapses on regions that can conditionally fold (6.3% vs. 31% baseline) and on disorder evidenced by HDX-MS, with specific proteins named rather than only aggregate rates. Its hero animation traces one of those named proteins' real per-residue pLDDT values as a wiggling chain, not a decorative illustration. [Source code](https://github.com/lindgreendavid/foldings-edge) · [Research report](https://github.com/lindgreendavid/foldings-edge/blob/main/docs/research-report.md)
 
 `Python` · `TypeScript` · `Structural Biology` · `Statistical Inference` · `Real Public Data` · `Scientific UI/UX`
 
@@ -38,6 +38,12 @@ A reproducible test of how well AlphaFold2's per-residue confidence score (pLDDT
 A reproducible computational-physics laboratory mapping the boundary between quasi-periodic and chaotic motion in the planar gravitational three-body problem, via empirically estimated Lyapunov exponents. Visitors can watch a reference trajectory and a near-identical perturbed twin diverge in real time, export a clip of the divergence, and inspect a frozen, preregistered sweep that tests the figure-eight, Lagrange equilateral, and Euler collinear special solutions against that boundary. Version 0.1.0 does not claim to solve the three-body problem — it reports what a disclosed numerical method actually finds, including two hypotheses it falsified. [Source code](https://github.com/lindgreendavid/three-body-lab) · [Research report](https://github.com/lindgreendavid/three-body-lab/blob/main/docs/research-report.md)
 
 `Python` · `TypeScript` · `Computational Physics` · `Chaos Theory` · `Numerical Integration` · `Scientific UI/UX`
+
+### [Climate Twin Frankfurt — open the interactive laboratory](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev)
+
+A reproducible measurement of Frankfurt's urban heat island from real DWD station records: the inner-city Frankfurt/Main-Westend station against Frankfurt/Main — DWD's own designated reference counterpart (physically the airport, disclosed rather than glossed over) — across every valid paired day from 1985 to 2025. Version 0.1.0 finds a measurable but modest gap (+0.455°C, 95% CI [0.432, 0.478], excludes zero) and no statistically significant long-term trend over the 40-year record (p=0.118) — reported plainly rather than reworded into a more dramatic story. [Source code](https://github.com/lindgreendavid/climate-twin-frankfurt) · [Research report](https://github.com/lindgreendavid/climate-twin-frankfurt/blob/main/docs/research-report.md)
+
+`Python` · `TypeScript` · `Climate Data` · `Statistical Inference` · `Real Public Data` · `Scientific UI/UX`
 
 ### [Kryptographie WASM](https://github.com/lindgreendavid/kryptographie-wasm)
 
@@ -52,7 +58,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 | Project | Question | Primary evidence | Status |
 | --- | --- | --- | --- |
 | Fairshift Lab | Does measured fairness remain stable under distribution shift, noise, and misspecification? | ML evaluation, causal clarity, research rigor | Shipped, v1.3.0 |
-| Climate Twin Frankfurt | How much warmer is urban Frankfurt than its rural surroundings, with what uncertainty, and how has that gap trended over time? | Real paired urban/rural DWD Climate Data Center station records | Building now |
+| [Climate Twin Frankfurt](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev) | How much warmer is urban Frankfurt than its rural surroundings, with what uncertainty, and how has that gap trended over time? | Real paired urban/rural DWD Climate Data Center station records | Shipped, v0.1.0 |
 | Mathlab WASM | How can numerical algorithms be made inspectable? | Mathematics, Rust/WASM, interactive teaching | Not yet scoped |
 | Data Contract Observatory | When do public-data pipelines silently become unreliable? | Data engineering, observability, drift detection | Not yet scoped |
 
