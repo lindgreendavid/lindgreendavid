@@ -56,7 +56,8 @@ candidates for the next wave, in fields not yet covered by this track:
 from 300–600 ms — remain positive in an independently hosted public auditory-oddball EEG dataset?
 
 **Status:** the primary-source pass, metadata-only audit, frozen protocol, and confirmatory analysis
-are complete in the local Neuro Signal Lab repository. Using OpenNeuro `ds003061` v1.1.0, the mean
+are complete in the public [Neuro Signal Lab](https://github.com/lindgreendavid/neuro-signal-lab)
+repository. Using OpenNeuro `ds003061` v1.1.0, the mean
 participant contrast was +5.65 µV, 95% CI [+4.83, +6.48], and all 13 participant contrasts were
 positive. This is a cross-paradigm robustness confirmation, not a literal direct replication,
 because ERP CORE used a visual task and the external dataset used an auditory task. The public
