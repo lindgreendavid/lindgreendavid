@@ -15,14 +15,13 @@ I work at the intersection of **responsible AI**, **data science**, **mathematic
 
 ## Featured work
 
-### [Lab Notes — read and explore the science hub](https://github.com/lindgreendavid/blog)
+### [Lab Notes — read and explore the science hub](https://blog-interactive.lindgreendavid.workers.dev/)
 
 An accessible editorial home for the portfolio's research: five plain-language articles, a
 filterable evidence explorer, and a reusable four-step guide for reading scientific results.
 Every project is presented through the same inspectable structure — question, evidence, finding,
 and boundary — with direct routes into the underlying interactive laboratory and source code.
-The production site is complete and tested; its public Cloudflare address will be added here after
-fresh deployment credentials are configured. [Source code](https://github.com/lindgreendavid/blog)
+The production site is live on Cloudflare Workers. [Source code](https://github.com/lindgreendavid/blog)
 
 `TypeScript` · `Science Communication` · `Interactive Learning` · `Accessibility` · `Scientific UI/UX`
 
@@ -68,7 +67,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 
 | Project | Question | Primary evidence | Status |
 | --- | --- | --- | --- |
-| [Lab Notes](https://github.com/lindgreendavid/blog) | How can five technical studies become an inspectable, reusable learning experience? | Verified project reports, article citations, interactive laboratories | Site complete; live deployment pending fresh credentials |
+| [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | How can five technical studies become an inspectable, reusable learning experience? | Verified project reports, article citations, interactive laboratories | Live on Cloudflare Workers |
 | Fairshift Lab | Does measured fairness remain stable under distribution shift, noise, and misspecification? | ML evaluation, causal clarity, research rigor | Shipped, v1.3.0 |
 | [Climate Twin Frankfurt](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev) | How much warmer is urban Frankfurt than its rural surroundings, with what uncertainty, and how has that gap trended over time? | Real paired urban/rural DWD Climate Data Center station records | Shipped, v0.1.0 |
 | Mathlab WASM | How can numerical algorithms be made inspectable? | Mathematics, Rust/WASM, interactive teaching | Not yet scoped |
