@@ -12,7 +12,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 
 | Project | Track | Status |
 | --- | --- | --- |
-| [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | Science communication / portfolio infrastructure | Live on Cloudflare Workers with five articles, an evidence explorer, a study guide, an accessibility contract, and CI. |
+| [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | Science communication / portfolio infrastructure | Live and continuously expanding with project articles, an evidence explorer, a study guide, an accessibility contract, and CI. |
 | Next research selection | Science research | Run a full primary-source research pass on the neuroscience and chemistry candidates below, then select one bounded replication question before writing any protocol. |
 
 ## Shipped in the current wave

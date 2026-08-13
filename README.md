@@ -17,8 +17,8 @@ I work at the intersection of **responsible AI**, **data science**, **mathematic
 
 ### [Lab Notes — read and explore the science hub](https://blog-interactive.lindgreendavid.workers.dev/)
 
-An accessible editorial home for the portfolio's research: five plain-language articles, a
-filterable evidence explorer, and a reusable four-step guide for reading scientific results.
+An accessible, continuously growing editorial home for the portfolio's research: plain-language
+articles, a filterable evidence explorer, and a reusable four-step guide for reading scientific results.
 Every project is presented through the same inspectable structure — question, evidence, finding,
 and boundary — with direct routes into the underlying interactive laboratory and source code.
 The production site is live on Cloudflare Workers. [Source code](https://github.com/lindgreendavid/blog)
@@ -67,7 +67,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 
 | Project | Question | Primary evidence | Status |
 | --- | --- | --- | --- |
-| [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | How can five technical studies become an inspectable, reusable learning experience? | Verified project reports, article citations, interactive laboratories | Live on Cloudflare Workers |
+| [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | How can technical studies become an inspectable, reusable learning experience? | Verified project reports, article citations, interactive laboratories | Live and continuously expanding |
 | Fairshift Lab | Does measured fairness remain stable under distribution shift, noise, and misspecification? | ML evaluation, causal clarity, research rigor | Shipped, v1.3.0 |
 | [Climate Twin Frankfurt](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev) | How much warmer is urban Frankfurt than its rural surroundings, with what uncertainty, and how has that gap trended over time? | Real paired urban/rural DWD Climate Data Center station records | Shipped, v0.1.0 |
 | Mathlab WASM | How can numerical algorithms be made inspectable? | Mathematics, Rust/WASM, interactive teaching | Not yet scoped |
