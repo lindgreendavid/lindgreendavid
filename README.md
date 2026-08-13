@@ -47,12 +47,14 @@ An interactive cryptography learning application whose cryptographic domain logi
 
 ## Portfolio roadmap
 
-| Project | Question | Primary evidence |
-| --- | --- | --- |
-| Fairshift Lab | Does measured fairness remain stable under distribution shift, noise, and misspecification? | ML evaluation, causal clarity, research rigor |
-| Climate Twin Frankfurt | How can local heat risk be communicated with uncertainty? | Time series, geospatial data, scientific UX |
-| Mathlab WASM | How can numerical algorithms be made inspectable? | Mathematics, Rust/WASM, interactive teaching |
-| Data Contract Observatory | When do public-data pipelines silently become unreliable? | Data engineering, observability, drift detection |
+Full researched roadmap, including grounded data sources for every future entry: [ROADMAP.md](ROADMAP.md).
+
+| Project | Question | Primary evidence | Status |
+| --- | --- | --- | --- |
+| Fairshift Lab | Does measured fairness remain stable under distribution shift, noise, and misspecification? | ML evaluation, causal clarity, research rigor | Shipped, v1.3.0 |
+| Climate Twin Frankfurt | How much warmer is urban Frankfurt than its rural surroundings, with what uncertainty, and how has that gap trended over time? | Real paired urban/rural DWD Climate Data Center station records | Building now |
+| Mathlab WASM | How can numerical algorithms be made inspectable? | Mathematics, Rust/WASM, interactive teaching | Not yet scoped |
+| Data Contract Observatory | When do public-data pipelines silently become unreliable? | Data engineering, observability, drift detection | Not yet scoped |
 
 ## Science communication & research track
 
@@ -66,6 +68,8 @@ A second track, kept visually and editorially separate from the responsible-AI/d
 | [Three-Body Lab](https://three-body-lab-interactive.lindgreendavid.workers.dev) | Physics | Where does the planar three-body problem cross from quasi-periodic to chaotic, and do the classical special solutions sit at that boundary? | **Shipped — v0.1.0 live.** A single Lyapunov-exponent threshold didn't cleanly separate the tested grid, and the Lagrange/Euler special solutions measured *less* stable than generic configurations — consistent with Routh's 1875 instability criterion. |
 | [FRB Atlas](https://frb-atlas-interactive.lindgreendavid.workers.dev) | Astrophysics | Using the real, public CHIME/FRB Catalog 1, do repeating and non-repeating fast radio bursts actually show indistinguishable dispersion measures, as the original catalog paper concludes? | **Shipped — v0.1.0 live.** Pulse-width/bandwidth differences replicated cleanly (validating the method); dispersion measure did not — a discrepancy traced to two repeaters dominating the sample, reported rather than hidden. |
 | [Folding's Edge](https://foldings-edge-interactive.lindgreendavid.workers.dev) | Biology | Does AlphaFold2's pLDDT confidence score predict real, curated intrinsic disorder — and where does that relationship break down? | **Shipped — v0.1.0 live.** Confirms pLDDT as a strong overall disorder signal, but precision collapses specifically on conditionally-folding regions and HDX-MS-evidenced disorder — named failure cases, not just aggregate rates. |
+
+All three original ideas for this track are now shipped. Two researched, grounded candidates for the next wave — a neuroscience replication (OpenNeuro) and a chemistry reproducibility check (Open Reaction Database) — are in [ROADMAP.md](ROADMAP.md), pending a full research pass before either becomes a protocol.
 
 ## Engineering principles
 
