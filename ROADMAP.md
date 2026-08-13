@@ -12,26 +12,20 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 
 | Project | Track | Status |
 | --- | --- | --- |
-| [Folding's Edge](https://github.com/lindgreendavid/foldings-edge) — animation pass | Science (biology) | v0.1.0 shipped without an animated explainer, unlike its siblings. A real-data-driven animation is being added now: per-residue jitter driven by actual pLDDT values from the project's own joined dataset, not decorative. |
-| Climate Twin Frankfurt | AI/data engineering | Building now. See below for the grounded scope. |
+| [Lab Notes](https://github.com/lindgreendavid/blog) | Science communication / portfolio infrastructure | The complete publication site, five articles, evidence explorer, study guide, accessibility contract, and CI are ready in the launch PR. Public deployment is the only remaining step and requires fresh Cloudflare credentials. |
+| Next research selection | Science research | Run a full primary-source research pass on the neuroscience and chemistry candidates below, then select one bounded replication question before writing any protocol. |
+
+## Shipped in the current wave
+
+| Project | Track | Result |
+| --- | --- | --- |
+| [Folding's Edge](https://foldings-edge-interactive.lindgreendavid.workers.dev) | Science (biology) | v0.1.0 live, including its real-data pLDDT chain animation and interactive threshold explorer. |
+| [Climate Twin Frankfurt](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev) | AI / data engineering | v0.1.0 live, based on 40 years of paired DWD station records with uncertainty, provenance, and an interactive station map. |
+| [FRB Atlas](https://frb-atlas-interactive.lindgreendavid.workers.dev) | Science (astrophysics) | v0.1.0 live, including a documented partial replication and sample-composition sensitivity finding. |
+| [Three-Body Lab](https://three-body-lab-interactive.lindgreendavid.workers.dev) | Science (physics) | v0.1.0 live, with a validated simulator, perturbed-twin comparison, and frozen Lyapunov sweep. |
+| [Fairshift Lab](https://fairshift-lab.lindgreendavid.chatgpt.site) | Responsible AI | v1.3.0 live, including governed external evidence, policy analysis, and robustness stress tests. |
 
 ## Next up — AI / data engineering track
-
-### Climate Twin Frankfurt
-
-**Question:** How much warmer is urban Frankfurt than its rural surroundings, with what
-uncertainty, and how has that gap trended over time?
-
-**Why this is tractable, not just an idea:** the German national weather service (DWD) runs an
-open, free Climate Data Center (`opendata.dwd.de` / `cdc.dwd.de`) that includes purpose-built
-**urban climate measurement stations paired with rural reference counterparts** — the DWD's own
-program is literally built around the "urban station vs. its surrounding twin" comparison this
-project is named for. This is real station data, not a simulated proxy, and it's directly
-downloadable without authentication.
-
-**Planned contribution:** a reproducible, uncertainty-first quantification of Frankfurt's urban
-heat island intensity from real paired station records, with an accessible interactive
-visualization — following the same preregister-then-analyze discipline as the science track.
 
 ### Mathlab WASM
 
