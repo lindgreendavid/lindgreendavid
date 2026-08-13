@@ -1,0 +1,26 @@
+/* Lab Notes portfolio identity — canonical semantic tokens, v1.0.0.
+   Project palettes map their own discipline accent to --ln-accent. */
+:root {
+  --ln-paper: #faf6f0;
+  --ln-ink: #201a17;
+  --ln-muted: #5c5148;
+  --ln-line: #e3d9cc;
+  --ln-accent: #7a2331;
+  --ln-accent-wash: #f3e3e1;
+  --ln-white: #ffffff;
+  --ln-focus: #1f3a8a;
+  --ln-success: #17633a;
+  --ln-warning: #8a5a00;
+
+  --ln-font-reading: Georgia, "Times New Roman", serif;
+  --ln-font-interface: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --ln-font-data: ui-monospace, "SFMono-Regular", Consolas, monospace;
+
+  --ln-reading-measure: 42rem;
+  --ln-content-max: 90rem;
+  --ln-gutter: clamp(1.25rem, 4vw, 5rem);
+  --ln-section-space: clamp(4.5rem, 9vw, 8rem);
+  --ln-radius-small: .35rem;
+  --ln-radius-large: 1.75rem;
+  --ln-shadow: 0 1.5rem 4rem rgb(32 26 23 / 10%);
+}

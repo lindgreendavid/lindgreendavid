@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Lab Notes research mark</title>
+  <desc id="desc">The letters LN surrounded by an open research cycle.</desc>
+  <rect width="240" height="240" rx="48" fill="#faf6f0"/>
+  <path d="M61 88a68 68 0 0 1 110-24" fill="none" stroke="#7a2331" stroke-width="13" stroke-linecap="round"/>
+  <path d="m167 48 20 18-26 8" fill="none" stroke="#7a2331" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M179 152a68 68 0 0 1-110 24" fill="none" stroke="#201a17" stroke-width="13" stroke-linecap="round"/>
+  <path d="m73 192-20-18 26-8" fill="none" stroke="#201a17" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="120" y="139" text-anchor="middle" font-family="Georgia,serif" font-size="61" font-weight="700" fill="#201a17">LN</text>
+</svg>
