@@ -12,7 +12,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 
 | Project | Track | Status |
 | --- | --- | --- |
-| [Lab Notes](https://github.com/lindgreendavid/blog) | Science communication / portfolio infrastructure | The complete publication site, five articles, evidence explorer, study guide, accessibility contract, and CI are ready in the launch PR. Public deployment is the only remaining step and requires fresh Cloudflare credentials. |
+| [Lab Notes](https://github.com/lindgreendavid/blog) | Science communication / portfolio infrastructure | The complete publication site, five articles, evidence explorer, study guide, accessibility contract, and CI are merged on `main`. Public deployment is the only remaining step and requires fresh Cloudflare credentials. |
 | Next research selection | Science research | Run a full primary-source research pass on the neuroscience and chemistry candidates below, then select one bounded replication question before writing any protocol. |
 
 ## Shipped in the current wave
