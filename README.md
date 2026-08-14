@@ -79,14 +79,14 @@ A reproducible cross-dataset test of a fixed P3b endpoint in public EEG data. Th
 ### [Reaction Integrity Lab — inspect the benchmark](https://lindgreendavid.github.io/reaction-integrity-lab/)
 
 A transparent known-result reproduction of ORDerly's reaction-condition benchmark. Research
-product v0.2.0 verifies the primary paper, both versioned Figshare sources, official cleaning logs,
+product v1.0.0 verifies the primary paper, both versioned Figshare sources, official cleaning logs,
 and the complete four-variant archive. All four frequency baselines reproduce within 0.46
 percentage points of the final peer-reviewed values. An exact audit of 691,142 released reactions finds zero
 train/test collisions on the declared reactant/product input key and zero exact full-record
-duplicates across the split. The interactive accuracy-inflation microscope exposes how role
-assignment and rare-condition policy define four performance comparisons. Neural-model scores
-remain published reference values until the frozen model reproduction is run; exact identity separation is
-not evidence against chemical-similarity, patent-family, or temporal leakage.
+duplicates across the split. The prespecified v1 audit finds 5.78% canonical product overlap,
+80.84% nonempty product-scaffold overlap, and 60.5% sampled maximum product similarity ≥0.70.
+Neural-model scores remain published references because exact checkpoint/prediction bundles are not
+in the versioned public release; product overlap is not proof of patent-family leakage or wet-lab failure.
 [Source code](https://github.com/lindgreendavid/reaction-integrity-lab) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/reaction-integrity-lab-cleaning-leakage) · [Research report](https://github.com/lindgreendavid/reaction-integrity-lab/blob/main/docs/research-report.md)
 
 `Python` · `Computational Chemistry` · `Machine Learning` · `Data Provenance` · `Reproducibility` · `Scientific UI/UX`
@@ -108,7 +108,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 | [Climate Twin Frankfurt](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev) | How much warmer is urban Frankfurt than its rural surroundings, with what uncertainty, and how has that gap trended over time? | Real paired urban/rural DWD Climate Data Center station records | Product v1.0.0; frozen study v0.1 |
 | Mathlab WASM | How can numerical algorithms be made inspectable? | Mathematics, Rust/WASM, interactive teaching | Not yet scoped |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | When does a public-data response cease to satisfy its declared operational contract? | Official ECB SDMX series, prospective ledger, retrospective replay, synthetic fault suite | **Product v1.0.0.** One prospective run; longitudinal evidence is beginning. [Release](https://github.com/lindgreendavid/data-contract-observatory/releases/tag/v1.0.0) |
-| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Do ORDerly's published reaction-condition results survive an exact reproduction? | Primary paper, complete checksum-verified four-variant archive, official code and logs | **Research product v0.2.0.** All four frequency baselines and exact split audit complete; neural-model reproduction pending. |
+| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Do ORDerly's published reaction-condition results survive an exact reproduction? | Primary paper, complete checksum-verified archive, reproduced baselines and prespecified similarity audit | **Product v1.0.0.** Stable audited result; neural-model cells remain published references. |
 
 ## Science communication & research track
 
@@ -123,7 +123,7 @@ A second track, editorially distinct from the responsible-AI/data-engineering wo
 | [FRB Atlas](https://frb-atlas-interactive.lindgreendavid.workers.dev) | Astrophysics | Which CHIME/FRB Catalog 1 comparisons replicate under the frozen analysis? | **Product v1.0.0; frozen study v0.1.** [Release](https://github.com/lindgreendavid/frb-atlas/releases/tag/v1.0.0) |
 | [Folding's Edge](https://foldings-edge-interactive.lindgreendavid.workers.dev) | Biology | When does AlphaFold confidence predict curated disorder? | **Product v1.0.0; frozen study v0.1.** [Release](https://github.com/lindgreendavid/foldings-edge/releases/tag/v1.0.0) |
 | [Neuro Signal Lab](https://lindgreendavid.github.io/neuro-signal-lab/) | Neuroscience | Does a fixed P3b target enhancement survive an independent auditory dataset? | **Product v1.0.0; frozen endpoint and result.** [Release](https://github.com/lindgreendavid/neuro-signal-lab/releases/tag/v1.0.0) |
-| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Computational chemistry / ML | Does ORDerly's published condition-prediction gap survive an exact reproduction? | **Research product v0.2.0.** Four baselines reproduced; neural-model and similarity audits pending. |
+| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Computational chemistry / ML | Does ORDerly's published condition-prediction gap survive an exact reproduction? | **Product v1.0.0.** Four baselines and prespecified similarity/provenance audit complete; neural-model artifacts remain unavailable. |
 
 The four stable studies and the new chemistry reproduction are collected in Lab Notes. Reaction
 Integrity Lab's source and released-data audits are public; its model-score reproduction remains
