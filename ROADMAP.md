@@ -29,7 +29,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | [Neuro Signal Lab](https://lindgreendavid.github.io/neuro-signal-lab/) | Neuroscience | Product v1.0.0; frozen endpoint and result, with all 13 participant contrasts positive. |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0; one prospective run, 7,010 current-vintage replay prefixes, and nine controlled faults. |
 | [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Science (planetary dynamics) | Product v1.0.0; 14,610 JUP365 epochs across two frozen intervals, replicated ordering, passed numerical gates, and interactive convergence lab. |
-| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Science (experimental evolution) | Product v1.0.0; tetraploidy increases cluster radius but is not sufficient for later macroscopic size; historical v0.1 morphology study preserved. |
+| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Science (experimental evolution) | Product v1.0.1; frozen v1.0 result and historical v0.1 morphology study preserved; animation semantics clarified. |
 | [Neural Geometry Lab](https://lindgreendavid.github.io/neural-geometry-lab/) | AI / machine learning | Product v1.0.0; 30 frozen MLP runs, two of four gates passed, and an interactive full-dimensional neural-collapse audit. |
 
 ## Stable mathematics / data-engineering track
@@ -117,7 +117,7 @@ the anaerobic PA and mixotrophic PM treatments?
 **Status:** the public [interactive laboratory](https://lindgreendavid.github.io/snowflake-evolution-lab/),
 [source repository](https://github.com/lindgreendavid/snowflake-evolution-lab),
 [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/snowflake-evolution-lab-individuality),
-and [v1.0.0 release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v1.0.0)
+and [v1.0.1 release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v1.0.1)
 are live. The historical v0.1 study remains unchanged: all five morphology associations are
 positive (Spearman ρ 0.923–0.967; median 0.956). The v1.0 evaluation aggregates measurements within
 four engineered replicate strains per ploidy group. Tetraploidy increases 24-hour cluster radius
@@ -132,7 +132,7 @@ a blinded preregistration. The selected tables do not contain a joined quantitat
 entanglement endpoint. The project therefore supports an immediate genome-duplication effect and
 rejects simple sufficiency, but does not identify the completing mechanism or a universal threshold.
 
-**Next evidence step:** product v1.0.0 is complete. A future v1.x study may test the coupled-threshold
+**Next evidence step:** product v1.0.1 is complete; the frozen v1.0 result is unchanged. A future v1.x study may test the coupled-threshold
 hypothesis only after obtaining an independently defined, quantitative time-resolved mechanical or
 entanglement endpoint aligned to genome and morphology observations. It must begin with a separate
 protocol and must not retrospectively convert the present insufficiency result into evidence for a
