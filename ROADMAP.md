@@ -16,7 +16,6 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0: append-only prospective evidence now runs beside the frozen fault suite and current-vintage replay. One real prospective run exists; longitudinal evidence is accumulating. |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Science (computational chemistry / ML) | Product v1.0.0: all four baselines, exact split, product identity, scaffold, provenance, date, and sampled similarity audits complete. |
 | [Mathlab WASM](https://lindgreendavid.github.io/mathlab-wasm/) | Mathematics / scientific computing | Product v1.0.0: seventeen versioned cases across solver, safeguard, and conditioning protocols; all frozen gates pass. |
-| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Science (experimental evolution / multicellularity) | Product v1.0.0: engineered genome-duplication effect and longitudinal insufficiency gates pass; a quantitative entanglement endpoint remains future work. |
 
 ## Shipped in the current wave
 
