@@ -16,6 +16,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0: append-only prospective evidence now runs beside the frozen fault suite and current-vintage replay. One real prospective run exists; longitudinal evidence is accumulating. |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Science (computational chemistry / ML) | Product v1.0.0: all four baselines, exact split, product identity, scaffold, provenance, date, and sampled similarity audits complete. |
 | [Mathlab WASM](https://lindgreendavid.github.io/mathlab-wasm/) | Mathematics / scientific computing | Product v0.2.0: unchanged seven-case v0.1 foundation plus five prespecified safeguarded-method cases with bracket and step-kind traces. |
+| [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Science (planetary dynamics) | Product v0.1.0: preregistered JUP365 four-model ablation published; a converged-step replication is the next research gate. |
 
 ## Shipped in the current wave
 
@@ -28,6 +29,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | [Fairshift Lab](https://fairshift-lab.lindgreendavid.chatgpt.site) | Responsible AI | v1.3.0 live, including governed external evidence, policy analysis, and robustness stress tests. |
 | [Neuro Signal Lab](https://lindgreendavid.github.io/neuro-signal-lab/) | Neuroscience | Product v1.0.0; frozen endpoint and result, with all 13 participant contrasts positive. |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0; one prospective run, 7,010 current-vintage replay prefixes, and nine controlled faults. |
+| [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Science (planetary dynamics) | Product v0.1.0; 10,957 JUP365 epochs, four frozen models, interactive orbit lab, and disclosed numerical-convergence limit. |
 
 ## Next up — AI / data engineering track
 
@@ -70,8 +72,32 @@ enough real runs exist.
 
 ## Next up — science communication & research track
 
-The first six v1 research products are shipped. The next science wave is now active in
-computational chemistry.
+The first stable research products are shipped, and the planetary-dynamics expansion now has its
+complete v0.1.0 research release.
+
+### Jovian Resonance Lab (field: planetary dynamics / celestial mechanics)
+
+**Selected question:** which minimum dynamical ingredients reproduce the Io–Europa–Ganymede
+Laplace angle relative to NASA/JPL JUP365 over 2001–2030?
+
+**Status:** the public [interactive laboratory](https://lindgreendavid.github.io/jovian-resonance-lab/),
+[source repository](https://github.com/lindgreendavid/jovian-resonance-lab), and
+[v0.1.0 release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v0.1.0)
+are live. The protocol was frozen before the 10,957-epoch scored extraction. G4J2 had lower circular
+RMSE than K2, G3, and G4, satisfying every prespecified ordering. A required step-size comparison
+showed that the nominal 0.01-day thirty-year trace was not numerically converged. Later halvings
+reduced successive trace differences by roughly fourfold; the finest exploratory run reached
+0.464° RMSE against JUP365.
+
+**Evidence boundary:** JUP365 is a fitted ephemeris, not raw astrometry. The comparative ordering is
+confirmatory; the finest-step result was selected after the nominal sensitivity failure and remains
+exploratory. No result establishes resonance formation, billion-year stability, tidal parameters,
+internal heating, oceans, or habitability.
+
+**Next evidence step:** freeze a second protocol with a convergence threshold and internal step
+chosen before scoring, then repeat the model comparison on a non-overlapping JUP365 interval or an
+independently constructed reference extract. Higher Jovian harmonics or solar forcing require a
+separate ablation protocol rather than an unregistered addition to v0.1.
 
 ### A neuroscience replication (field: neuroscience)
 

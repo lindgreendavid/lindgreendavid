@@ -15,6 +15,7 @@ I work at the intersection of **responsible AI**, **data science**, **mathematic
 - Explainable, accessible research interfaces
 - Mathematical algorithms in Rust and WebAssembly
 - Data quality, observability, and reproducible analytics
+- Planetary dynamics, numerical adequacy, and interactive scientific explanation
 - Accessible science communication — physics, astrophysics, biology, chemistry, and neuroscience, held to the same bar as the AI work: a bounded question, real evidence (public data where possible), and honest limits, not a hot take
 
 ## Featured work
@@ -70,6 +71,19 @@ A reproducible measurement of Frankfurt's urban heat island from real DWD statio
 
 `Python` · `TypeScript` · `Climate Data` · `Statistical Inference` · `Real Public Data` · `Scientific UI/UX`
 
+### [Jovian Resonance Lab — watch Jupiter's moons keep time](https://lindgreendavid.github.io/jovian-resonance-lab/)
+
+A preregistered model-ablation study of the Io–Europa–Ganymede Laplace angle against 10,957 daily
+NASA/JPL JUP365 epochs from 2001–2030. Four models separate independent orbits, mutual satellite
+gravity, Callisto, and Jupiter's `J2` oblateness. G4J2 produced lower circular RMSE than every frozen
+alternative. The release also reports the result that limits that conclusion: the nominal
+thirty-year trace was not numerically converged. Exploratory step refinement reached 0.464° RMSE
+against JUP365 and is labelled as promising rather than retroactively confirmatory. The interactive
+site animates a real JUP365 vector extract and keeps measured timing separate from illustrative
+scale. [Source code](https://github.com/lindgreendavid/jovian-resonance-lab) · [v0.1.0 release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v0.1.0) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/jovian-resonance-lab-laplace-angle)
+
+`Python` · `JavaScript` · `Planetary Dynamics` · `Celestial Mechanics` · `JPL Horizons` · `Scientific UI/UX`
+
 ### [Neuro Signal Lab — inspect the EEG result](https://lindgreendavid.github.io/neuro-signal-lab/)
 
 A reproducible cross-dataset test of a fixed P3b endpoint in public EEG data. The electrode, 300–600 ms window, target-minus-standard contrast, artifact threshold, participant-level inference, and stopping rule were frozen before the external amplitudes were inspected. All 13 OpenNeuro participants showed a positive contrast; the mean was +5.65 µV with a 95% confidence interval of [+4.83, +6.48]. The interactive laboratory exposes every participant and both prespecified artifact-threshold sensitivity analyses while keeping the confirmatory endpoint visibly fixed. Product v1.0.0 stabilizes the research product without changing the frozen endpoint or result. [Source code](https://github.com/lindgreendavid/neuro-signal-lab) · [v1.0.0 release](https://github.com/lindgreendavid/neuro-signal-lab/releases/tag/v1.0.0)
@@ -121,6 +135,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 | [Mathlab WASM](https://lindgreendavid.github.io/mathlab-wasm/) | Which root-finding guarantees and failures remain visible under shared numerical rules? | NIST DLMF, Brent (1971), twelve versioned Rust/WASM traces | **Product v0.2.0.** Safeguarded interpolation and explicit bisection fallback shipped. [Release](https://github.com/lindgreendavid/mathlab-wasm/releases/tag/v0.2.0) |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | When does a public-data response cease to satisfy its declared operational contract? | Official ECB SDMX series, prospective ledger, retrospective replay, synthetic fault suite | **Product v1.0.0.** One prospective run; longitudinal evidence is beginning. [Release](https://github.com/lindgreendavid/data-contract-observatory/releases/tag/v1.0.0) |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Do ORDerly's published reaction-condition results survive an exact reproduction? | Primary paper, complete checksum-verified archive, reproduced baselines and prespecified similarity audit | **Product v1.0.0.** Stable audited result; neural-model cells remain published references. |
+| [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Which minimum dynamical ingredients reproduce the Galilean-moon Laplace angle? | 10,957 JUP365 epochs, frozen four-model ablation, cadence/frame/convergence diagnostics | **Product v0.1.0.** Confirmatory ordering passed; finest-step fit remains exploratory. [Release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v0.1.0) |
 
 ## Science communication & research track
 
@@ -136,10 +151,11 @@ A second track, editorially distinct from the responsible-AI/data-engineering wo
 | [Folding's Edge](https://foldings-edge-interactive.lindgreendavid.workers.dev) | Biology | When does AlphaFold confidence predict curated disorder? | **Product v1.0.0; frozen study v0.1.** [Release](https://github.com/lindgreendavid/foldings-edge/releases/tag/v1.0.0) |
 | [Neuro Signal Lab](https://lindgreendavid.github.io/neuro-signal-lab/) | Neuroscience | Does a fixed P3b target enhancement survive an independent auditory dataset? | **Product v1.0.0; frozen endpoint and result.** [Release](https://github.com/lindgreendavid/neuro-signal-lab/releases/tag/v1.0.0) |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Computational chemistry / ML | Does ORDerly's published condition-prediction gap survive an exact reproduction? | **Product v1.0.0.** Four baselines and prespecified similarity/provenance audit complete; neural-model artifacts remain unavailable. |
+| [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Planetary dynamics / celestial mechanics | Which minimum forces reproduce the JUP365 Laplace angle over 2001–2030? | **Product v0.1.0.** Frozen ordering passed; numerical-convergence limitation and exploratory refinement published. [Release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v0.1.0) |
 
-The four stable studies and the new chemistry reproduction are collected in Lab Notes. Reaction
-Integrity Lab's source and released-data audits are public; its model-score reproduction remains
-open and is stated as such throughout the repository, live laboratory, and article.
+The complete research collection is indexed in Lab Notes. Product and study versions remain
+separate: Jovian Resonance Lab is a complete first research release, while its finer-step result is
+explicitly exploratory and its next confirmatory protocol is still open.
 
 ## Engineering principles
 
