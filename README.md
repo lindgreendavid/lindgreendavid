@@ -16,6 +16,7 @@ I work at the intersection of **responsible AI**, **data science**, **mathematic
 - Mathematical algorithms in Rust and WebAssembly
 - Data quality, observability, and reproducible analytics
 - Planetary dynamics, numerical adequacy, and interactive scientific explanation
+- Experimental evolution, multicellularity, and honest causal boundaries
 - Accessible science communication — physics, astrophysics, biology, chemistry, and neuroscience, held to the same bar as the AI work: a bounded question, real evidence (public data where possible), and honest limits, not a hot take
 
 ## Featured work
@@ -84,6 +85,19 @@ site exposes the orbit, model, and convergence evidence. [Source code](https://g
 
 `Python` · `JavaScript` · `Planetary Dynamics` · `Celestial Mechanics` · `JPL Horizons` · `Scientific UI/UX`
 
+### [Snowflake Evolution Lab — watch a new level of individuality emerge](https://lindgreendavid.github.io/snowflake-evolution-lab/)
+
+A protocol-frozen reanalysis of public MuLTEE figure-source data across five independently evolved
+anaerobic snowflake-yeast populations. Cellular aspect ratio and biomass-weighted cluster radius
+are positively associated in every line (Spearman ρ 0.923–0.967; median 0.956), while exploratory
+size and shape jumps occur in no universal temporal order. The interactive laboratory replays all
+published trajectories and makes a strict visual distinction between empirical measurements and
+an explanatory branching-geometry model. This is a source-data reanalysis, not an independent
+wet-lab replication, causal threshold, or reconstruction of historical multicellularity.
+[Source code](https://github.com/lindgreendavid/snowflake-evolution-lab) · [v0.1.0 release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v0.1.0) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/snowflake-evolution-lab-individuality)
+
+`Python` · `JavaScript` · `Experimental Evolution` · `Multicellularity` · `Reproducibility` · `Scientific UI/UX`
+
 ### [Neuro Signal Lab — inspect the EEG result](https://lindgreendavid.github.io/neuro-signal-lab/)
 
 A reproducible cross-dataset test of a fixed P3b endpoint in public EEG data. The electrode, 300–600 ms window, target-minus-standard contrast, artifact threshold, participant-level inference, and stopping rule were frozen before the external amplitudes were inspected. All 13 OpenNeuro participants showed a positive contrast; the mean was +5.65 µV with a 95% confidence interval of [+4.83, +6.48]. The interactive laboratory exposes every participant and both prespecified artifact-threshold sensitivity analyses while keeping the confirmatory endpoint visibly fixed. Product v1.0.0 stabilizes the research product without changing the frozen endpoint or result. [Source code](https://github.com/lindgreendavid/neuro-signal-lab) · [v1.0.0 release](https://github.com/lindgreendavid/neuro-signal-lab/releases/tag/v1.0.0)
@@ -136,6 +150,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | When does a public-data response cease to satisfy its declared operational contract? | Official ECB SDMX series, prospective ledger, retrospective replay, synthetic fault suite | **Product v1.0.0.** One prospective run; longitudinal evidence is beginning. [Release](https://github.com/lindgreendavid/data-contract-observatory/releases/tag/v1.0.0) |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Do ORDerly's published reaction-condition results survive an exact reproduction? | Primary paper, complete checksum-verified archive, reproduced baselines and prespecified similarity audit | **Product v1.0.0.** Stable audited result; neural-model cells remain published references. |
 | [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Which minimum dynamical ingredients reproduce the Galilean-moon Laplace angle? | 14,610 JUP365 epochs, two frozen intervals, common-step ablation and convergence gates | **Product v1.0.0.** Ordering and every numerical gate replicated. [Release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v1.0.0) |
+| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Does cellular elongation track cluster-size evolution in every anaerobic MuLTEE lineage? | 64 paired published means across five independent population trajectories | **Product v0.1.0.** Frozen directional reanalysis complete; causal threshold remains untested. [Release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v0.1.0) |
 
 ## Science communication & research track
 
@@ -152,10 +167,13 @@ A second track, editorially distinct from the responsible-AI/data-engineering wo
 | [Neuro Signal Lab](https://lindgreendavid.github.io/neuro-signal-lab/) | Neuroscience | Does a fixed P3b target enhancement survive an independent auditory dataset? | **Product v1.0.0; frozen endpoint and result.** [Release](https://github.com/lindgreendavid/neuro-signal-lab/releases/tag/v1.0.0) |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Computational chemistry / ML | Does ORDerly's published condition-prediction gap survive an exact reproduction? | **Product v1.0.0.** Four baselines and prespecified similarity/provenance audit complete; neural-model artifacts remain unavailable. |
 | [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Planetary dynamics / celestial mechanics | Does the minimum-force ordering replicate on a new JUP365 interval with numerical gates? | **Product v1.0.0.** Two frozen studies; temporal ordering, convergence, and reference-adequacy gates passed. [Release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v1.0.0) |
+| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Experimental evolution / multicellularity | Is the cell-shape/cluster-size association directionally concordant across five anaerobic lines? | **Product v0.1.0.** Five of five positive; exploratory jump timing is inconsistent. [Release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v0.1.0) |
 
 The complete research collection is indexed in Lab Notes. Product and study versions remain
 separate: Jovian Resonance Lab product v1.0.0 preserves the original v0.1 analysis and adds a second,
-prospectively frozen validation rather than rewriting the historical endpoint.
+prospectively frozen validation rather than rewriting the historical endpoint. Snowflake Evolution
+Lab product v0.1.0 reports a completed frozen reanalysis while reserving v1.0.0 for an independently
+validated coupled-threshold study.
 
 ## Engineering principles
 
