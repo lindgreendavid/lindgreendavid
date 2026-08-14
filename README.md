@@ -91,6 +91,18 @@ in the versioned public release; product overlap is not proof of patent-family l
 
 `Python` · `Computational Chemistry` · `Machine Learning` · `Data Provenance` · `Reproducibility` · `Scientific UI/UX`
 
+### [Mathlab WASM — inspect root finding](https://lindgreendavid.github.io/mathlab-wasm/)
+
+An interactive Rust/WebAssembly laboratory for understanding what bisection, Newton, and secant
+methods actually certify. The frozen v0.1.0 suite contains seven deterministic scenarios: simple
+and repeated roots, a guaranteed sign-changing bracket, an invalid same-sign bracket, a Newton
+`0 → 1 → 0` cycle, and a collapsed secant denominator. Every result includes the exact iteration
+trace, residual, step, and evaluation count. All prespecified qualitative expectations pass, while
+the site states clearly that this intentionally selected teaching suite is not a representative
+solver benchmark. [Source code](https://github.com/lindgreendavid/mathlab-wasm) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/mathlab-wasm-root-finding) · [Research report](https://github.com/lindgreendavid/mathlab-wasm/blob/main/docs/research-report.md)
+
+`Rust` · `WebAssembly` · `Numerical Analysis` · `Scientific Computing` · `Accessibility` · `Interactive Learning`
+
 ### [Kryptographie WASM](https://github.com/lindgreendavid/kryptographie-wasm)
 
 An interactive cryptography learning application whose cryptographic domain logic is implemented in Rust and delivered through WebAssembly. It combines mathematical explanation, typed error handling, official test vectors, browser tests, accessibility checks, and a documented security model.
@@ -106,7 +118,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 | [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | How can technical studies become an inspectable, reusable learning experience? | Verified project reports, article citations, interactive laboratories | Live and continuously expanding |
 | Fairshift Lab | Does measured fairness remain stable under distribution shift, noise, and misspecification? | ML evaluation, causal clarity, research rigor | Shipped, v1.3.0 |
 | [Climate Twin Frankfurt](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev) | How much warmer is urban Frankfurt than its rural surroundings, with what uncertainty, and how has that gap trended over time? | Real paired urban/rural DWD Climate Data Center station records | Product v1.0.0; frozen study v0.1 |
-| Mathlab WASM | How can numerical algorithms be made inspectable? | Mathematics, Rust/WASM, interactive teaching | Not yet scoped |
+| [Mathlab WASM](https://lindgreendavid.github.io/mathlab-wasm/) | Which root-finding guarantees and failures remain visible under shared numerical rules? | NIST DLMF, frozen seven-case Rust/WASM traces, binary64 safeguards | **Product v0.1.0.** Bisection, Newton, and secant foundation shipped. [Release](https://github.com/lindgreendavid/mathlab-wasm/releases/tag/v0.1.0) |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | When does a public-data response cease to satisfy its declared operational contract? | Official ECB SDMX series, prospective ledger, retrospective replay, synthetic fault suite | **Product v1.0.0.** One prospective run; longitudinal evidence is beginning. [Release](https://github.com/lindgreendavid/data-contract-observatory/releases/tag/v1.0.0) |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Do ORDerly's published reaction-condition results survive an exact reproduction? | Primary paper, complete checksum-verified archive, reproduced baselines and prespecified similarity audit | **Product v1.0.0.** Stable audited result; neural-model cells remain published references. |
 
