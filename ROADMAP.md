@@ -14,7 +14,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | --- | --- | --- |
 | [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | Science communication / portfolio infrastructure | Live and continuously expanding with project articles, an evidence explorer, a study guide, an accessibility contract, and CI. |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0: append-only prospective evidence now runs beside the frozen fault suite and current-vintage replay. One real prospective run exists; longitudinal evidence is accumulating. |
-| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Science (computational chemistry / ML) | Research product v0.2.0: all four frequency baselines reproduce within 0.46 percentage points; independent neural-model and similarity audits are next. |
+| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Science (computational chemistry / ML) | Product v1.0.0: all four baselines, exact split, product identity, scaffold, provenance, date, and sampled similarity audits complete. |
 
 ## Shipped in the current wave
 
@@ -99,13 +99,13 @@ record has zero exact cross-split duplicates.
 
 **Evidence boundary:** the locally reproduced baselines are 51.57%, 52.22%, 19.55%, and 20.24%,
 all within 0.46 percentage points of the peer-reviewed 52%, 52%, 20%, and 20%. The corresponding
-67%, 68%, 35%, and 36% neural-model cells remain published reference values. Exact identity
-separation does not exclude chemical-similarity, patent-family, or temporal leakage.
+67%, 68%, 35%, and 36% neural-model cells remain published reference values. The v1 audit finds
+5.78% product-identity overlap, 80.84% nonempty scaffold overlap, and 60.5% sampled maximum product
+similarity ≥0.70. None of those metrics establishes patent-family leakage or wet-lab failure.
 
-**Next evidence step:** reproduce the neural model under an exact archived environment, record seed
-variation, and evaluate each published value against the prespecified ±1 percentage-point rule.
-Then add chemistry-similarity and provenance-aware sensitivity audits without rewriting the primary
-endpoint.
+**Next evidence step:** if exact model checkpoints, predictions, or complete run identities become
+available, archive and verify them under the frozen endpoint. Separately reconstruct a verified
+patent-family or temporal split before making generalization claims.
 
 ## Longer-horizon / not yet scoped
 
