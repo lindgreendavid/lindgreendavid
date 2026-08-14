@@ -16,7 +16,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0: append-only prospective evidence now runs beside the frozen fault suite and current-vintage replay. One real prospective run exists; longitudinal evidence is accumulating. |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Science (computational chemistry / ML) | Product v1.0.0: all four baselines, exact split, product identity, scaffold, provenance, date, and sampled similarity audits complete. |
 | [Mathlab WASM](https://lindgreendavid.github.io/mathlab-wasm/) | Mathematics / scientific computing | Product v1.0.0: seventeen versioned cases across solver, safeguard, and conditioning protocols; all frozen gates pass. |
-| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Science (experimental evolution / multicellularity) | Product v0.1.0: frozen five-line reanalysis and interactive explainer shipped; combined genomic–mechanical validation is the next evidence gate. |
+| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Science (experimental evolution / multicellularity) | Product v1.0.0: engineered genome-duplication effect and longitudinal insufficiency gates pass; a quantitative entanglement endpoint remains future work. |
 
 ## Shipped in the current wave
 
@@ -30,7 +30,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | [Neuro Signal Lab](https://lindgreendavid.github.io/neuro-signal-lab/) | Neuroscience | Product v1.0.0; frozen endpoint and result, with all 13 participant contrasts positive. |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0; one prospective run, 7,010 current-vintage replay prefixes, and nine controlled faults. |
 | [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Science (planetary dynamics) | Product v1.0.0; 14,610 JUP365 epochs across two frozen intervals, replicated ordering, passed numerical gates, and interactive convergence lab. |
-| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Science (experimental evolution) | Product v0.1.0; five of five cell-shape/cluster-size associations positive, with non-universal exploratory jump ordering and an interactive geometry model. |
+| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Science (experimental evolution) | Product v1.0.0; tetraploidy increases cluster radius but is not sufficient for later macroscopic size; historical v0.1 morphology study preserved. |
 
 ## Stable mathematics / data-engineering track
 
@@ -76,35 +76,38 @@ enough real runs exist.
 
 ## Next up — science communication & research track
 
-The first stable research products are shipped, the planetary-dynamics expansion has its complete
-v1.0.0 release, and the experimental-evolution expansion has a public, protocol-frozen v0.1 result.
+The first stable research products are shipped, and both the planetary-dynamics and
+experimental-evolution expansions have complete v1.0.0 research-product releases.
 
 ### Snowflake Evolution Lab (field: experimental evolution / multicellularity)
 
-**Selected question:** across the five independently evolved anaerobic MuLTEE populations, is the
-association between mean cellular aspect ratio and biomass-weighted mean cluster radius positive in
-every lineage over the first 600 daily transfers?
+**Selected question:** does engineered tetraploidy increase snowflake-yeast cell geometry and
+24-hour cluster radius, and is tetraploidy sufficient for the later macroscopic phenotype across
+the anaerobic PA and mixotrophic PM treatments?
 
 **Status:** the public [interactive laboratory](https://lindgreendavid.github.io/snowflake-evolution-lab/),
 [source repository](https://github.com/lindgreendavid/snowflake-evolution-lab),
 [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/snowflake-evolution-lab-individuality),
-and [v0.1.0 release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v0.1.0)
-are live. The protocol was public before calculation. All five population-level Spearman
-correlations are positive (0.923–0.967; median 0.956), and the prespecified no-ancestor, Pearson,
-and Kendall sensitivities agree directionally. PA2 day 400 remains missing rather than imputed.
+and [v1.0.0 release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v1.0.0)
+are live. The historical v0.1 study remains unchanged: all five morphology associations are
+positive (Spearman ρ 0.923–0.967; median 0.956). The v1.0 evaluation aggregates measurements within
+four engineered replicate strains per ploidy group. Tetraploidy increases 24-hour cluster radius
+in PA and PM (exact one-sided p = 1/70 each; Holm-adjusted p = 0.0286). All evolved PA and PM
+population-time G1 peaks are at least 3.489N, yet at transfer 1,000 mean PA radius is 8.859× mean PM
+radius; all five PA lines exceed 300 µm and the largest PM line is 53.226 µm.
 
-**Evidence boundary:** these are published population means from the source authors, not an
-independent wet-lab replication. The five lines are the inference units. Correlated time,
-selection, mutations, shape, and size prevent a causal interpretation. Exploratory maximum-jump
-ordering differs across populations, providing no universal temporal threshold. The explanatory
-cluster animation is not microscopy or a fitted evolutionary simulator.
+**Evidence boundary:** these are source-author data, not an independent wet-lab replication. The
+engineered strains—not segmented cells or clusters—are the intervention inference units. The
+protocol was frozen after source-compatibility inspection and before implementation, so it is not
+a blinded preregistration. The selected tables do not contain a joined quantitative time-resolved
+entanglement endpoint. The project therefore supports an immediate genome-duplication effect and
+rejects simple sufficiency, but does not identify the completing mechanism or a universal threshold.
 
-**Next evidence step:** freeze a new protocol that joins time-resolved ploidy/aneuploidy evidence
-to morphological trajectories and tests the coupled-threshold hypothesis: genomic size
-amplification may need to coincide with an entangling cellular geometry before robust macroscopic
-size emerges. Confirm dataset compatibility, temporal resolution, interventions, and replicate-level
-identities before defining an endpoint. Product v1.0.0 requires that independent validation; it
-must not be inferred retrospectively from the v0.1 association.
+**Next evidence step:** product v1.0.0 is complete. A future v1.x study may test the coupled-threshold
+hypothesis only after obtaining an independently defined, quantitative time-resolved mechanical or
+entanglement endpoint aligned to genome and morphology observations. It must begin with a separate
+protocol and must not retrospectively convert the present insufficiency result into evidence for a
+specific completing mechanism.
 
 ### Jovian Resonance Lab (field: planetary dynamics / celestial mechanics)
 
