@@ -30,6 +30,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0; one prospective run, 7,010 current-vintage replay prefixes, and nine controlled faults. |
 | [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Science (planetary dynamics) | Product v1.0.0; 14,610 JUP365 epochs across two frozen intervals, replicated ordering, passed numerical gates, and interactive convergence lab. |
 | [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Science (experimental evolution) | Product v1.0.0; tetraploidy increases cluster radius but is not sufficient for later macroscopic size; historical v0.1 morphology study preserved. |
+| [Neural Geometry Lab](https://lindgreendavid.github.io/neural-geometry-lab/) | AI / machine learning | Product v1.0.0; 30 frozen MLP runs, two of four gates passed, and an interactive full-dimensional neural-collapse audit. |
 
 ## Stable mathematics / data-engineering track
 
@@ -77,6 +78,35 @@ enough real runs exist.
 
 The first stable research products are shipped, and both the planetary-dynamics and
 experimental-evolution expansions have complete v1.0.0 research-product releases.
+
+### Neural Geometry Lab (field: machine learning / representation geometry)
+
+**Selected question:** after a small neural classifier reaches zero training error, do NC1–NC4
+continue toward classical neural-collapse geometry, and does stronger collapse consistently
+accompany better generalization to writers excluded from training?
+
+**Status:** the public [interactive laboratory](https://lindgreendavid.github.io/neural-geometry-lab/),
+[source repository](https://github.com/lindgreendavid/neural-geometry-lab),
+[Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/neural-geometry-lab-collapse),
+and [v1.0.0 release](https://github.com/lindgreendavid/neural-geometry-lab/releases/tag/v1.0.0)
+are live. The protocol fixes the official UCI Optical Digits writer-disjoint split, a compact
+`64 → 64 → 9 → 10` MLP, ten seeds, 600 epochs, and clean, deterministic long-tail, and 20%
+symmetric-noise conditions. Clean NC4 is no worse after interpolation in 10/10 seeds, and
+long-tail NC2 is worse than paired clean NC2 in 10/10. Continued clean NC1 and NC2 improvement
+each occur in 7/10 seeds and therefore miss their frozen 8/10 gates. Clean median held-out accuracy
+is 96.27%; the noisy median is 81.64% despite slightly lower median NC2.
+
+**Evidence boundary:** the ten seeds quantify algorithmic sensitivity on one fixed dataset and are
+not a population sample. NC2 deliberately retains the balanced simplex target under imbalance.
+Symmetric corruption is not realistic annotator disagreement. The fixed-basis PCA animation is
+only a display; every endpoint uses the full nine-dimensional representation. The study does not
+establish collapse as necessary, sufficient, causal, or representative of CNNs, transformers, or
+foundation models.
+
+**Next evidence step:** product v1.0.0 is complete. Any architectural extension must begin with a
+separate protocol and add genuinely independent regimes—for example convolutional inductive bias,
+another task family, or a natural rather than synthetic shift—without rewriting the completed
+writer-disjoint result.
 
 ### Snowflake Evolution Lab (field: experimental evolution / multicellularity)
 
