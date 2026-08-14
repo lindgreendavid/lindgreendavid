@@ -87,14 +87,15 @@ site exposes the orbit, model, and convergence evidence. [Source code](https://g
 
 ### [Snowflake Evolution Lab — watch a new level of individuality emerge](https://lindgreendavid.github.io/snowflake-evolution-lab/)
 
-A protocol-frozen reanalysis of public MuLTEE figure-source data across five independently evolved
-anaerobic snowflake-yeast populations. Cellular aspect ratio and biomass-weighted cluster radius
-are positively associated in every line (Spearman ρ 0.923–0.967; median 0.956), while exploratory
-size and shape jumps occur in no universal temporal order. The interactive laboratory replays all
-published trajectories and makes a strict visual distinction between empirical measurements and
-an explanatory branching-geometry model. This is a source-data reanalysis, not an independent
-wet-lab replication, causal threshold, or reconstruction of historical multicellularity.
-[Source code](https://github.com/lindgreendavid/snowflake-evolution-lab) · [v0.1.0 release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v0.1.0) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/snowflake-evolution-lab-individuality)
+A stable, protocol-frozen research product built from public MuLTEE source data. The historical
+v0.1 morphology study found positive cell-shape/cluster-size associations in all five anaerobic
+lines. The v1.0 intervention now shows that engineered tetraploidy increases cluster radius in both
+tested backgrounds, while the longitudinal comparison rejects tetraploidy as sufficient: at
+transfer 1,000, mean PA radius is 8.859× mean PM radius despite widespread tetraploidy. The
+interactive laboratory exposes all 16 chromosome copy numbers, the engineered 2N/4N contrast, and
+the PA/PM trajectory while keeping measured data separate from explanatory geometry. This is a
+source-author-data reanalysis, not an independent wet-lab replication or a measured entanglement
+threshold. [Source code](https://github.com/lindgreendavid/snowflake-evolution-lab) · [v1.0.0 release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v1.0.0) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/snowflake-evolution-lab-individuality)
 
 `Python` · `JavaScript` · `Experimental Evolution` · `Multicellularity` · `Reproducibility` · `Scientific UI/UX`
 
@@ -150,7 +151,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | When does a public-data response cease to satisfy its declared operational contract? | Official ECB SDMX series, prospective ledger, retrospective replay, synthetic fault suite | **Product v1.0.0.** One prospective run; longitudinal evidence is beginning. [Release](https://github.com/lindgreendavid/data-contract-observatory/releases/tag/v1.0.0) |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Do ORDerly's published reaction-condition results survive an exact reproduction? | Primary paper, complete checksum-verified archive, reproduced baselines and prespecified similarity audit | **Product v1.0.0.** Stable audited result; neural-model cells remain published references. |
 | [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Which minimum dynamical ingredients reproduce the Galilean-moon Laplace angle? | 14,610 JUP365 epochs, two frozen intervals, common-step ablation and convergence gates | **Product v1.0.0.** Ordering and every numerical gate replicated. [Release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v1.0.0) |
-| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Does cellular elongation track cluster-size evolution in every anaerobic MuLTEE lineage? | 64 paired published means across five independent population trajectories | **Product v0.1.0.** Frozen directional reanalysis complete; causal threshold remains untested. [Release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v0.1.0) |
+| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Does engineered tetraploidy increase phenotype—and is it sufficient for macroscopic size? | Four engineered strains per group plus ten evolved lines through transfer 1,000 | **Product v1.0.0.** Tetraploidy increases radius but is not sufficient; the entanglement threshold remains unmeasured. [Release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v1.0.0) |
 
 ## Science communication & research track
 
@@ -167,13 +168,14 @@ A second track, editorially distinct from the responsible-AI/data-engineering wo
 | [Neuro Signal Lab](https://lindgreendavid.github.io/neuro-signal-lab/) | Neuroscience | Does a fixed P3b target enhancement survive an independent auditory dataset? | **Product v1.0.0; frozen endpoint and result.** [Release](https://github.com/lindgreendavid/neuro-signal-lab/releases/tag/v1.0.0) |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Computational chemistry / ML | Does ORDerly's published condition-prediction gap survive an exact reproduction? | **Product v1.0.0.** Four baselines and prespecified similarity/provenance audit complete; neural-model artifacts remain unavailable. |
 | [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Planetary dynamics / celestial mechanics | Does the minimum-force ordering replicate on a new JUP365 interval with numerical gates? | **Product v1.0.0.** Two frozen studies; temporal ordering, convergence, and reference-adequacy gates passed. [Release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v1.0.0) |
-| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Experimental evolution / multicellularity | Is the cell-shape/cluster-size association directionally concordant across five anaerobic lines? | **Product v0.1.0.** Five of five positive; exploratory jump timing is inconsistent. [Release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v0.1.0) |
+| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Experimental evolution / multicellularity | Does engineered tetraploidy help, and is it sufficient for the macroscopic phenotype? | **Product v1.0.0.** Exact intervention gate and longitudinal insufficiency gate pass; historical v0.1 morphology result preserved. [Release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v1.0.0) |
 
 The complete research collection is indexed in Lab Notes. Product and study versions remain
 separate: Jovian Resonance Lab product v1.0.0 preserves the original v0.1 analysis and adds a second,
 prospectively frozen validation rather than rewriting the historical endpoint. Snowflake Evolution
-Lab product v0.1.0 reports a completed frozen reanalysis while reserving v1.0.0 for an independently
-validated coupled-threshold study.
+Lab product v1.0.0 likewise preserves the v0.1 morphology study and adds a source-compatible
+genome-duplication intervention and sufficiency evaluation. It does not claim an independent
+wet-lab replication or a measured genomic–mechanical threshold.
 
 ## Engineering principles
 
