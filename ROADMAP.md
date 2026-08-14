@@ -89,8 +89,9 @@ against pinned DataLad identities, and one truncated run is disclosed rather tha
 **Selected question:** do ORDerly's four published reaction-condition benchmark comparisons survive
 an exact reproduction across role assignment and rare-condition policy?
 
-**Status:** the public [Reaction Integrity Lab](https://github.com/lindgreendavid/reaction-integrity-lab)
-has completed its primary-source, provenance, licensing, endpoint, official-log, and first
+**Status:** the public [interactive laboratory](https://lindgreendavid.github.io/reaction-integrity-lab/)
+and [source repository](https://github.com/lindgreendavid/reaction-integrity-lab) have completed the
+primary-source, provenance, licensing, endpoint, official-log, and first
 released-data split audit. Both official version-4 Parquet files match their Figshare MD5 checksums.
 They contain 625,697 training and 65,445 test rows—691,142 total, matching the final official log
 count. The declared reactant/product key has zero exact train/test collisions, and the full declared
