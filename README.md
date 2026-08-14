@@ -86,7 +86,7 @@ duplicates across the split. The interactive accuracy-inflation microscope expos
 assignment and rare-condition policy define four published performance comparisons. Those model
 scores remain reference values until the frozen reproduction is run; exact identity separation is
 not evidence against chemical-similarity, patent-family, or temporal leakage.
-[Source code](https://github.com/lindgreendavid/reaction-integrity-lab) · [Research report](https://github.com/lindgreendavid/reaction-integrity-lab/blob/main/docs/research-report.md)
+[Source code](https://github.com/lindgreendavid/reaction-integrity-lab) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/reaction-integrity-lab-cleaning-leakage) · [Research report](https://github.com/lindgreendavid/reaction-integrity-lab/blob/main/docs/research-report.md)
 
 `Python` · `Computational Chemistry` · `Machine Learning` · `Data Provenance` · `Reproducibility` · `Scientific UI/UX`
 
