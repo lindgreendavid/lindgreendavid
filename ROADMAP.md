@@ -14,7 +14,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | --- | --- | --- |
 | [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | Science communication / portfolio infrastructure | Live and continuously expanding with project articles, an evidence explorer, a study guide, an accessibility contract, and CI. |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0: append-only prospective evidence now runs beside the frozen fault suite and current-vintage replay. One real prospective run exists; longitudinal evidence is accumulating. |
-| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Science (computational chemistry / ML) | Research product v0.1.0: primary sources, data identities, checksums, official logs, and the released-data exact split audit are complete; independent model-score reproduction is next. |
+| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Science (computational chemistry / ML) | Research product v0.2.0: all four frequency baselines reproduce within 0.46 percentage points; independent neural-model and similarity audits are next. |
 
 ## Shipped in the current wave
 
@@ -91,21 +91,21 @@ an exact reproduction across role assignment and rare-condition policy?
 
 **Status:** the public [interactive laboratory](https://lindgreendavid.github.io/reaction-integrity-lab/)
 and [source repository](https://github.com/lindgreendavid/reaction-integrity-lab) have completed the
-primary-source, provenance, licensing, endpoint, official-log, and first
-released-data split audit. Both official version-4 Parquet files match their Figshare MD5 checksums.
+primary-source, provenance, licensing, endpoint, official-log, four-cell frequency-baseline, and
+released-data split audits. The complete version-3 four-variant supplement and both version-4 files match their Figshare MD5 checksums.
 They contain 625,697 training and 65,445 test rows—691,142 total, matching the final official log
 count. The declared reactant/product key has zero exact train/test collisions, and the full declared
 record has zero exact cross-split duplicates.
 
-**Evidence boundary:** those findings establish exact identity separation in the released split.
-They do not exclude chemical-similarity, patent-family, or temporal leakage. The published top-3
-accuracy cells—31/44%, 33/47%, 4/21%, and 5/24% for baseline/model—remain reference values, not
-independently reproduced results.
+**Evidence boundary:** the locally reproduced baselines are 51.57%, 52.22%, 19.55%, and 20.24%,
+all within 0.46 percentage points of the peer-reviewed 52%, 52%, 20%, and 20%. The corresponding
+67%, 68%, 35%, and 36% neural-model cells remain published reference values. Exact identity
+separation does not exclude chemical-similarity, patent-family, or temporal leakage.
 
-**Next evidence step:** execute the frozen four-cell baseline and model reproduction, record seed
-variation, and evaluate whether each published value falls within the prespecified ±1
-percentage-point verification rule. Then add chemistry-similarity and provenance-aware sensitivity
-audits without rewriting the primary endpoint.
+**Next evidence step:** reproduce the neural model under an exact archived environment, record seed
+variation, and evaluate each published value against the prespecified ±1 percentage-point rule.
+Then add chemistry-similarity and provenance-aware sensitivity audits without rewriting the primary
+endpoint.
 
 ## Longer-horizon / not yet scoped
 
