@@ -3,7 +3,7 @@
 A living, researched plan for what gets built next across both tracks of this portfolio — the
 responsible-AI/data-engineering track and the science communication & research track. Every entry
 here was checked against a real, currently-accessible data source or literature finding before
-being listed; nothing here is a vague aspiration. Updated 2026-08-13.
+being listed; nothing here is a vague aspiration. Updated 2026-08-14.
 
 The long-term goal is a **deliberate mix**: this portfolio should not drift into being "the physics
 one" or "the AI one" — each wave of building should keep both tracks moving.
@@ -14,6 +14,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | --- | --- | --- |
 | [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | Science communication / portfolio infrastructure | Live and continuously expanding with project articles, an evidence explorer, a study guide, an accessibility contract, and CI. |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0: append-only prospective evidence now runs beside the frozen fault suite and current-vintage replay. One real prospective run exists; longitudinal evidence is accumulating. |
+| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Science (computational chemistry / ML) | Research product v0.1.0: primary sources, data identities, checksums, official logs, and the released-data exact split audit are complete; independent model-score reproduction is next. |
 
 ## Shipped in the current wave
 
@@ -58,8 +59,8 @@ enough real runs exist.
 
 ## Next up — science communication & research track
 
-The first six v1 research products are shipped. One grounded candidate for the next science wave
-remains in a field not yet covered by this track:
+The first six v1 research products are shipped. The next science wave is now active in
+computational chemistry.
 
 ### A neuroscience replication (field: neuroscience)
 
@@ -83,21 +84,27 @@ selected endpoint came from Kappenman et al.'s ERP CORE recommendations and was 
 external EEG amplitudes were inspected. Raw data stay outside Git, included recordings are verified
 against pinned DataLad identities, and one truncated run is disclosed rather than silently replaced.
 
-### A chemistry reproducibility check (field: chemistry)
+### Reaction Integrity Lab (field: computational chemistry / machine learning)
 
-**Candidate question:** does a published reaction-prediction benchmark result hold up under a
-disclosed, careful data-cleaning pass, or does it depend on a data-quality artifact?
+**Selected question:** do ORDerly's four published reaction-condition benchmark comparisons survive
+an exact reproduction across role assignment and rare-condition policy?
 
-**Why this is tractable:** the [Open Reaction Database](https://open-reaction-database.org) and
-the ORDerly benchmark tooling (Wigh et al., published in *J. Chem. Inf. Model.*, PMC11094788) are
-real, open, and explicitly built around a known, disclosed problem in this literature: reaction
-datasets commonly overinflate reported model performance due to cleaning/leakage issues that
-aren't always published. This is a strong fit for this portfolio's standing bias toward "test
-whether the claimed result actually holds up," matching what FRB Atlas and Folding's Edge already
-did in their own fields.
+**Status:** the public [Reaction Integrity Lab](https://github.com/lindgreendavid/reaction-integrity-lab)
+has completed its primary-source, provenance, licensing, endpoint, official-log, and first
+released-data split audit. Both official version-4 Parquet files match their Figshare MD5 checksums.
+They contain 625,697 training and 65,445 test rows—691,142 total, matching the final official log
+count. The declared reactant/product key has zero exact train/test collisions, and the full declared
+record has zero exact cross-split duplicates.
 
-The neuroscience pass and public interactive implementation are complete. The chemistry candidate
-still needs the same full research pass before any protocol is written.
+**Evidence boundary:** those findings establish exact identity separation in the released split.
+They do not exclude chemical-similarity, patent-family, or temporal leakage. The published top-3
+accuracy cells—31/44%, 33/47%, 4/21%, and 5/24% for baseline/model—remain reference values, not
+independently reproduced results.
+
+**Next evidence step:** execute the frozen four-cell baseline and model reproduction, record seed
+variation, and evaluate whether each published value falls within the prespecified ±1
+percentage-point verification rule. Then add chemistry-similarity and provenance-aware sensitivity
+audits without rewriting the primary endpoint.
 
 ## Longer-horizon / not yet scoped
 
