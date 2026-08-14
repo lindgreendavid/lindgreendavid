@@ -15,7 +15,7 @@ I work at the intersection of **responsible AI**, **data science**, **mathematic
 - Explainable, accessible research interfaces
 - Mathematical algorithms in Rust and WebAssembly
 - Data quality, observability, and reproducible analytics
-- Accessible science communication — physics, astrophysics, and biology, held to the same bar as the AI work: a bounded question, real evidence (public data where possible), and honest limits, not a hot take
+- Accessible science communication — physics, astrophysics, biology, chemistry, and neuroscience, held to the same bar as the AI work: a bounded question, real evidence (public data where possible), and honest limits, not a hot take
 
 ## Featured work
 
@@ -76,6 +76,20 @@ A reproducible cross-dataset test of a fixed P3b endpoint in public EEG data. Th
 
 `Python` · `EEG` · `Neuroscience` · `Statistical Inference` · `OpenNeuro` · `Scientific UI/UX`
 
+### [Reaction Integrity Lab — inspect the benchmark](https://lindgreendavid.github.io/reaction-integrity-lab/)
+
+A transparent known-result reproduction of ORDerly's reaction-condition benchmark. The first
+research pass verifies the primary paper, versioned Figshare identities, official cleaning logs,
+and both released split-file checksums. An exact audit of 691,142 released reactions finds zero
+train/test collisions on the declared reactant/product input key and zero exact full-record
+duplicates across the split. The interactive accuracy-inflation microscope exposes how role
+assignment and rare-condition policy define four published performance comparisons. Those model
+scores remain reference values until the frozen reproduction is run; exact identity separation is
+not evidence against chemical-similarity, patent-family, or temporal leakage.
+[Source code](https://github.com/lindgreendavid/reaction-integrity-lab) · [Research report](https://github.com/lindgreendavid/reaction-integrity-lab/blob/main/docs/research-report.md)
+
+`Python` · `Computational Chemistry` · `Machine Learning` · `Data Provenance` · `Reproducibility` · `Scientific UI/UX`
+
 ### [Kryptographie WASM](https://github.com/lindgreendavid/kryptographie-wasm)
 
 An interactive cryptography learning application whose cryptographic domain logic is implemented in Rust and delivered through WebAssembly. It combines mathematical explanation, typed error handling, official test vectors, browser tests, accessibility checks, and a documented security model.
@@ -93,6 +107,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 | [Climate Twin Frankfurt](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev) | How much warmer is urban Frankfurt than its rural surroundings, with what uncertainty, and how has that gap trended over time? | Real paired urban/rural DWD Climate Data Center station records | Product v1.0.0; frozen study v0.1 |
 | Mathlab WASM | How can numerical algorithms be made inspectable? | Mathematics, Rust/WASM, interactive teaching | Not yet scoped |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | When does a public-data response cease to satisfy its declared operational contract? | Official ECB SDMX series, prospective ledger, retrospective replay, synthetic fault suite | **Product v1.0.0.** One prospective run; longitudinal evidence is beginning. [Release](https://github.com/lindgreendavid/data-contract-observatory/releases/tag/v1.0.0) |
+| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Do ORDerly's published reaction-condition results survive an exact reproduction? | Primary paper, checksum-verified Figshare v4 split, official configurations and logs | **Research product v0.1.0.** Source and exact split audit complete; model reproduction pending. |
 
 ## Science communication & research track
 
@@ -107,14 +122,15 @@ A second track, editorially distinct from the responsible-AI/data-engineering wo
 | [FRB Atlas](https://frb-atlas-interactive.lindgreendavid.workers.dev) | Astrophysics | Which CHIME/FRB Catalog 1 comparisons replicate under the frozen analysis? | **Product v1.0.0; frozen study v0.1.** [Release](https://github.com/lindgreendavid/frb-atlas/releases/tag/v1.0.0) |
 | [Folding's Edge](https://foldings-edge-interactive.lindgreendavid.workers.dev) | Biology | When does AlphaFold confidence predict curated disorder? | **Product v1.0.0; frozen study v0.1.** [Release](https://github.com/lindgreendavid/foldings-edge/releases/tag/v1.0.0) |
 | [Neuro Signal Lab](https://lindgreendavid.github.io/neuro-signal-lab/) | Neuroscience | Does a fixed P3b target enhancement survive an independent auditory dataset? | **Product v1.0.0; frozen endpoint and result.** [Release](https://github.com/lindgreendavid/neuro-signal-lab/releases/tag/v1.0.0) |
+| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Computational chemistry / ML | Does ORDerly's published condition-prediction gap survive an exact reproduction? | **Research product v0.1.0.** Source identities and released-data split verified; model-score reproduction pending. |
 
-All four studies in this track are shipped and collected in Lab Notes, including Neuro Signal Lab's
-confirmed EEG result, interactive participant explorer, and sensitivity analysis. The chemistry
-reproducibility candidate remains in [ROADMAP.md](ROADMAP.md) for a later wave.
+The four stable studies and the new chemistry reproduction are collected in Lab Notes. Reaction
+Integrity Lab's source and released-data audits are public; its model-score reproduction remains
+open and is stated as such throughout the repository, live laboratory, and article.
 
 ## Engineering principles
 
-1. **Research questions before dashboards.** Every analytical project begins with a falsifiable, bounded question, written down before any result exists.
+1. **Research questions before dashboards.** Every analytical project begins with a falsifiable, bounded question and a protocol appropriate to its design. Known-result reproductions are labelled explicitly rather than presented as blinded or preregistered work.
 2. **Evidence before claims.** Baselines, uncertainty, negative results, and limitations are first-class outputs — falsified hypotheses are reported, not quietly reframed.
 3. **Sources are verified, not assumed.** Every citation and external claim is checked against a primary source before it ships — including in a published paper's own stated methodology, not just its abstract.
 4. **Architecture proportional to the problem.** Clear modules and contracts matter; complexity without evidence does not.
