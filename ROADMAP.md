@@ -15,7 +15,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | Science communication / portfolio infrastructure | Live and continuously expanding with project articles, an evidence explorer, a study guide, an accessibility contract, and CI. |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0: append-only prospective evidence now runs beside the frozen fault suite and current-vintage replay. One real prospective run exists; longitudinal evidence is accumulating. |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Science (computational chemistry / ML) | Product v1.0.0: all four baselines, exact split, product identity, scaffold, provenance, date, and sampled similarity audits complete. |
-| [Mathlab WASM](https://lindgreendavid.github.io/mathlab-wasm/) | Mathematics / scientific computing | Product v0.1.0: frozen root-finding foundation with bisection, Newton, secant, seven deterministic cases, and interactive Rust/WASM traces. |
+| [Mathlab WASM](https://lindgreendavid.github.io/mathlab-wasm/) | Mathematics / scientific computing | Product v0.2.0: unchanged seven-case v0.1 foundation plus five prespecified safeguarded-method cases with bracket and step-kind traces. |
 
 ## Shipped in the current wave
 
@@ -33,21 +33,22 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 
 ### Mathlab WASM
 
-**Question:** Across a prespecified one-dimensional benchmark suite, which convergence guarantees
-and failure modes of bisection, Newton, and the secant method are observable under the same
-binary64 arithmetic, tolerances, and iteration budget?
+**Question:** Across separately prespecified one-dimensional suites, which convergence guarantees
+and failure modes of open and bracket-preserving methods remain observable under shared binary64
+arithmetic, tolerances, and iteration budgets?
 
-**Status:** product v0.1.0 implemented. The seven-case suite freezes method inputs, `10⁻¹⁰`
-position/residual tolerances, an 80-iteration budget, and explicit failure categories. All expected
-qualitative outcomes pass: bisection remains within its interval-halving bound, Newton reaches the
-selected simple root in four iterations and exposes the prespecified `0 → 1 → 0` cycle from an
-adverse start, while secant both converges without a derivative and reports a collapsed slope.
+**Status:** product v0.2.0 implemented. The unchanged seven-case v0.1 suite covers bisection,
+Newton, and secant. A separately frozen five-case protocol adds a Brent–Dekker-style safeguarded
+hybrid. All new expectations pass: every recorded iterative bracket retains its fixed reference,
+and the skewed `x¹⁰−1` trace contains secant, inverse-quadratic, and bisection moves. A dated
+post-result amendment discloses a last-bit system-libm difference in one cosine residual and limits
+cross-platform comparison accordingly.
 
 **Evidence boundary:** the cases were intentionally selected to expose established behavior. They
 are not a representative sample of nonlinear equations and do not support a universal solver
-ranking. The next mathematical scope is not yet frozen; candidates are safeguarded Brent-style
-root finding, conditioning/error diagnostics, or linear-system solvers, and must receive a separate
-protocol before implementation.
+ranking or production-library equivalence. The next mathematical scope is not yet frozen;
+conditioning/error diagnostics or a separately designed linear-system laboratory remain candidates
+and must receive a new protocol before implementation.
 
 ### Data Contract Observatory
 
