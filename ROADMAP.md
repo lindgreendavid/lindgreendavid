@@ -16,7 +16,6 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0: append-only prospective evidence now runs beside the frozen fault suite and current-vintage replay. One real prospective run exists; longitudinal evidence is accumulating. |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Science (computational chemistry / ML) | Product v1.0.0: all four baselines, exact split, product identity, scaffold, provenance, date, and sampled similarity audits complete. |
 | [Mathlab WASM](https://lindgreendavid.github.io/mathlab-wasm/) | Mathematics / scientific computing | Product v0.2.0: unchanged seven-case v0.1 foundation plus five prespecified safeguarded-method cases with bracket and step-kind traces. |
-| [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Science (planetary dynamics) | Product v0.1.0: preregistered JUP365 four-model ablation published; a converged-step replication is the next research gate. |
 
 ## Shipped in the current wave
 
@@ -29,7 +28,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | [Fairshift Lab](https://fairshift-lab.lindgreendavid.chatgpt.site) | Responsible AI | v1.3.0 live, including governed external evidence, policy analysis, and robustness stress tests. |
 | [Neuro Signal Lab](https://lindgreendavid.github.io/neuro-signal-lab/) | Neuroscience | Product v1.0.0; frozen endpoint and result, with all 13 participant contrasts positive. |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0; one prospective run, 7,010 current-vintage replay prefixes, and nine controlled faults. |
-| [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Science (planetary dynamics) | Product v0.1.0; 10,957 JUP365 epochs, four frozen models, interactive orbit lab, and disclosed numerical-convergence limit. |
+| [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Science (planetary dynamics) | Product v1.0.0; 14,610 JUP365 epochs across two frozen intervals, replicated ordering, passed numerical gates, and interactive convergence lab. |
 
 ## Next up — AI / data engineering track
 
@@ -73,31 +72,30 @@ enough real runs exist.
 ## Next up — science communication & research track
 
 The first stable research products are shipped, and the planetary-dynamics expansion now has its
-complete v0.1.0 research release.
+complete v1.0.0 research release.
 
 ### Jovian Resonance Lab (field: planetary dynamics / celestial mechanics)
 
-**Selected question:** which minimum dynamical ingredients reproduce the Io–Europa–Ganymede
-Laplace angle relative to NASA/JPL JUP365 over 2001–2030?
+**Selected question:** does the v0.1 minimum-force ordering reproduce on a non-overlapping JUP365
+interval when every model shares a finer step and G4J2 must pass frozen convergence gates?
 
 **Status:** the public [interactive laboratory](https://lindgreendavid.github.io/jovian-resonance-lab/),
 [source repository](https://github.com/lindgreendavid/jovian-resonance-lab), and
-[v0.1.0 release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v0.1.0)
-are live. The protocol was frozen before the 10,957-epoch scored extraction. G4J2 had lower circular
-RMSE than K2, G3, and G4, satisfying every prespecified ordering. A required step-size comparison
-showed that the nominal 0.01-day thirty-year trace was not numerically converged. Later halvings
-reduced successive trace differences by roughly fourfold; the finest exploratory run reached
-0.464° RMSE against JUP365.
+[v1.0.0 release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v1.0.0)
+are live. The historical v0.1 protocol and its failed nominal convergence check remain unchanged.
+A second protocol was committed before retrieving 3,653 non-overlapping 2031–2040 JUP365 epochs.
+At a common 0.0025-day step, G4J2 again beat K2, G3, and G4. The 0.0025-versus-0.00125-day trace
+difference was 0.5735° RMSE, the estimated convergence order was 1.984, and the fine trace reached
+0.4699° RMSE against JUP365. Every frozen v1 gate passed.
 
-**Evidence boundary:** JUP365 is a fitted ephemeris, not raw astrometry. The comparative ordering is
-confirmatory; the finest-step result was selected after the nominal sensitivity failure and remains
-exploratory. No result establishes resonance formation, billion-year stability, tidal parameters,
-internal heating, oceans, or habitability.
+**Evidence boundary:** JUP365 is a fitted ephemeris, not raw astrometry. Its 2031–2040 values are
+predictions, not observations collected in those future years. The validation restarts from JUP365
+in 2031 and is not a continuous forty-year prediction. No result establishes resonance formation,
+billion-year stability, tidal parameters, internal heating, oceans, or habitability.
 
-**Next evidence step:** freeze a second protocol with a convergence threshold and internal step
-chosen before scoring, then repeat the model comparison on a non-overlapping JUP365 interval or an
-independently constructed reference extract. Higher Jovian harmonics or solar forcing require a
-separate ablation protocol rather than an unregistered addition to v0.1.
+**Next evidence step:** v1.0.0 is complete. Any extension to solar forcing, higher Jovian harmonics,
+pole evolution, or an independently constructed reference must begin with a separate protocol and
+must not be folded retrospectively into either completed study.
 
 ### A neuroscience replication (field: neuroscience)
 
