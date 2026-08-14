@@ -12,6 +12,7 @@ I work at the intersection of **responsible AI**, **data science**, **mathematic
 
 - Fairness and robustness under distribution shift
 - Uncertainty-aware machine learning and model evaluation
+- Neural representation geometry and generalization boundaries
 - Explainable, accessible research interfaces
 - Mathematical algorithms in Rust and WebAssembly
 - Data quality, observability, and reproducible analytics
@@ -99,6 +100,21 @@ threshold. [Source code](https://github.com/lindgreendavid/snowflake-evolution-l
 
 `Python` · `JavaScript` · `Experimental Evolution` · `Multicellularity` · `Reproducibility` · `Scientific UI/UX`
 
+### [Neural Geometry Lab — watch a representation reorganize](https://lindgreendavid.github.io/neural-geometry-lab/)
+
+A protocol-frozen test of neural collapse after interpolation on the official writer-disjoint UCI
+Optical Digits split. Thirty 600-epoch MLP runs compare clean, deterministic long-tail, and 20%
+symmetric label-noise training against a multinomial logistic reference. Two of four directional
+gates pass: NC4 remains no worse after zero error in 10/10 clean seeds, and imbalance worsens NC2
+in 10/10 paired seeds; continued NC1 and NC2 improvement each reach only 7/10. Clean median
+held-out accuracy is 96.27%, while the noisy condition is only 81.64% despite a slightly lower
+median NC2. The Geometry Theatre replays actual saved checkpoints using fixed-basis PCA for display
+while reporting every NC endpoint in the full nine-dimensional representation. This is one small
+architecture and dataset—not evidence that collapse universally causes or certifies generalization.
+[Source code](https://github.com/lindgreendavid/neural-geometry-lab) · [v1.0.0 release](https://github.com/lindgreendavid/neural-geometry-lab/releases/tag/v1.0.0) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/neural-geometry-lab-collapse)
+
+`Python` · `Machine Learning` · `Neural Collapse` · `Representation Geometry` · `Reproducibility` · `Scientific UI/UX`
+
 ### [Neuro Signal Lab — inspect the EEG result](https://lindgreendavid.github.io/neuro-signal-lab/)
 
 A reproducible cross-dataset test of a fixed P3b endpoint in public EEG data. The electrode, 300–600 ms window, target-minus-standard contrast, artifact threshold, participant-level inference, and stopping rule were frozen before the external amplitudes were inspected. All 13 OpenNeuro participants showed a positive contrast; the mean was +5.65 µV with a 95% confidence interval of [+4.83, +6.48]. The interactive laboratory exposes every participant and both prespecified artifact-threshold sensitivity analyses while keeping the confirmatory endpoint visibly fixed. Product v1.0.0 stabilizes the research product without changing the frozen endpoint or result. [Source code](https://github.com/lindgreendavid/neuro-signal-lab) · [v1.0.0 release](https://github.com/lindgreendavid/neuro-signal-lab/releases/tag/v1.0.0)
@@ -152,6 +168,7 @@ Full researched roadmap, including grounded data sources for every future entry:
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Do ORDerly's published reaction-condition results survive an exact reproduction? | Primary paper, complete checksum-verified archive, reproduced baselines and prespecified similarity audit | **Product v1.0.0.** Stable audited result; neural-model cells remain published references. |
 | [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Which minimum dynamical ingredients reproduce the Galilean-moon Laplace angle? | 14,610 JUP365 epochs, two frozen intervals, common-step ablation and convergence gates | **Product v1.0.0.** Ordering and every numerical gate replicated. [Release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v1.0.0) |
 | [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Does engineered tetraploidy increase phenotype—and is it sufficient for macroscopic size? | Four engineered strains per group plus ten evolved lines through transfer 1,000 | **Product v1.0.0.** Tetraploidy increases radius but is not sufficient; the entanglement threshold remains unmeasured. [Release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v1.0.0) |
+| [Neural Geometry Lab](https://lindgreendavid.github.io/neural-geometry-lab/) | After zero training error, does neural-collapse geometry keep improving—and track unseen-writer accuracy? | 30 frozen MLP runs, three stress conditions, and the official writer-disjoint UCI Optical Digits split | **Product v1.0.0.** Two of four gates pass; one geometry coordinate does not certify generalization. [Release](https://github.com/lindgreendavid/neural-geometry-lab/releases/tag/v1.0.0) |
 
 ## Science communication & research track
 
@@ -169,6 +186,7 @@ A second track, editorially distinct from the responsible-AI/data-engineering wo
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Computational chemistry / ML | Does ORDerly's published condition-prediction gap survive an exact reproduction? | **Product v1.0.0.** Four baselines and prespecified similarity/provenance audit complete; neural-model artifacts remain unavailable. |
 | [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Planetary dynamics / celestial mechanics | Does the minimum-force ordering replicate on a new JUP365 interval with numerical gates? | **Product v1.0.0.** Two frozen studies; temporal ordering, convergence, and reference-adequacy gates passed. [Release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v1.0.0) |
 | [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Experimental evolution / multicellularity | Does engineered tetraploidy help, and is it sufficient for the macroscopic phenotype? | **Product v1.0.0.** Exact intervention gate and longitudinal insufficiency gate pass; historical v0.1 morphology result preserved. [Release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v1.0.0) |
+| [Neural Geometry Lab](https://lindgreendavid.github.io/neural-geometry-lab/) | Machine learning / representation geometry | Does terminal neural-collapse geometry reliably accompany writer-disjoint generalization? | **Product v1.0.0.** NC4 stability and the imbalance boundary pass; clean NC1/NC2 continuation gates do not. [Release](https://github.com/lindgreendavid/neural-geometry-lab/releases/tag/v1.0.0) |
 
 The complete research collection is indexed in Lab Notes. Product and study versions remain
 separate: Jovian Resonance Lab product v1.0.0 preserves the original v0.1 analysis and adds a second,
@@ -176,6 +194,9 @@ prospectively frozen validation rather than rewriting the historical endpoint. S
 Lab product v1.0.0 likewise preserves the v0.1 morphology study and adds a source-compatible
 genome-duplication intervention and sufficiency evaluation. It does not claim an independent
 wet-lab replication or a measured genomic–mechanical threshold.
+Neural Geometry Lab is a separate protocol-frozen v1.0 study: its ten seeds per condition measure
+algorithmic sensitivity on one fixed writer split, not population uncertainty, and its PCA scene
+is explicitly separated from full-dimensional NC1–NC4 endpoints.
 
 ## Engineering principles
 
