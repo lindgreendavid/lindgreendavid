@@ -15,7 +15,7 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | Science communication / portfolio infrastructure | Live and continuously expanding with project articles, an evidence explorer, a study guide, an accessibility contract, and CI. |
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0: append-only prospective evidence now runs beside the frozen fault suite and current-vintage replay. One real prospective run exists; longitudinal evidence is accumulating. |
 | [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Science (computational chemistry / ML) | Product v1.0.0: all four baselines, exact split, product identity, scaffold, provenance, date, and sampled similarity audits complete. |
-| [Mathlab WASM](https://lindgreendavid.github.io/mathlab-wasm/) | Mathematics / scientific computing | Product v0.2.0: unchanged seven-case v0.1 foundation plus five prespecified safeguarded-method cases with bracket and step-kind traces. |
+| [Mathlab WASM](https://lindgreendavid.github.io/mathlab-wasm/) | Mathematics / scientific computing | Product v1.0.0: seventeen versioned cases across solver, safeguard, and conditioning protocols; all frozen gates pass. |
 
 ## Shipped in the current wave
 
@@ -30,26 +30,29 @@ one" or "the AI one" — each wave of building should keep both tracks moving.
 | [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | AI / data engineering | Product v1.0.0; one prospective run, 7,010 current-vintage replay prefixes, and nine controlled faults. |
 | [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Science (planetary dynamics) | Product v1.0.0; 14,610 JUP365 epochs across two frozen intervals, replicated ordering, passed numerical gates, and interactive convergence lab. |
 
-## Next up — AI / data engineering track
+## Stable mathematics / data-engineering track
 
 ### Mathlab WASM
 
-**Question:** Across separately prespecified one-dimensional suites, which convergence guarantees
-and failure modes of open and bracket-preserving methods remain observable under shared binary64
-arithmetic, tolerances, and iteration budgets?
+**Question:** Across separately prespecified one-dimensional suites, which solver guarantees and
+failure modes remain observable, and when does a small residual fail to track root error?
 
-**Status:** product v0.2.0 implemented. The unchanged seven-case v0.1 suite covers bisection,
-Newton, and secant. A separately frozen five-case protocol adds a Brent–Dekker-style safeguarded
-hybrid. All new expectations pass: every recorded iterative bracket retains its fixed reference,
-and the skewed `x¹⁰−1` trace contains secant, inverse-quadratic, and bisection moves. A dated
-post-result amendment discloses a last-bit system-libm difference in one cosine residual and limits
-cross-platform comparison accordingly.
+**Status:** product v1.0.0 released. The unchanged seven-case v0.1 suite covers bisection, Newton,
+and secant; the five-case v0.2 extension adds a Brent–Dekker-style safeguarded hybrid. The frozen
+v1.0 protocol adds five conditioning diagnostics. Three algebraically equivalent linear roots keep
+the same forward error while their residuals span sixteen orders of magnitude; a local cubic
+estimate passes its frozen tolerance; and a repeated root correctly receives no finite simple-root
+diagnostic. All seventeen frozen cases and cross-case gates pass.
 
 **Evidence boundary:** the cases were intentionally selected to expose established behavior. They
-are not a representative sample of nonlinear equations and do not support a universal solver
-ranking or production-library equivalence. The next mathematical scope is not yet frozen;
-conditioning/error diagnostics or a separately designed linear-system laboratory remain candidates
-and must receive a new protocol before implementation.
+are not a representative sample of nonlinear equations and do not support a prevalence estimate,
+universal stopping rule, rigorous enclosure, solver ranking, or production-library equivalence.
+The v1 condition number is explicitly tied to additive function-value perturbations.
+
+**Next evidence step:** v1.0.0 is complete. The next mathematical project should be a separately
+designed linear-system laboratory focused on matrix conditioning, forward/backward error, and
+stable versus unstable algorithms; it must begin with a new protocol rather than extending these
+scalar-root results retrospectively.
 
 ### Data Contract Observatory
 
