@@ -23,15 +23,15 @@ Thirteen public analyses, each with code, data and a write-up that says what was
 | Note | Field | Interactive lab | Code |
 |---|---|---|---|
 | [Data Contract Observatory](https://notes.lindgreendavid.com/posts/data-contract-observatory-revision-evidence) | Data engineering | [Lab](https://lindgreendavid.com/data-contract-observatory/) | [Code](https://github.com/lindgreendavid/data-contract-observatory) |
-| [Fairshift Lab](https://notes.lindgreendavid.com/posts/fairshift-lab-robustness) | Responsible AI | - | [Code](https://github.com/lindgreendavid/fairshift-lab) |
+| [Fairshift Lab](https://notes.lindgreendavid.com/posts/fairshift-lab-robustness) | Responsible AI | [Lab](https://fairshift-lab-interactive.lindgreendavid.workers.dev) | [Code](https://github.com/lindgreendavid/fairshift-lab) |
 | [Backtests lie](https://notes.lindgreendavid.com/posts/backtests-lie-selection-bias) | Quantitative finance | [Lab](https://lindgreendavid.com/backtests-lie/) | [Code](https://github.com/lindgreendavid/backtests-lie) |
 | [Climate Twin Frankfurt](https://notes.lindgreendavid.com/posts/climate-twin-frankfurt-heat-island) | Climate data | [Lab](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev) | [Code](https://github.com/lindgreendavid/climate-twin-frankfurt) |
 | [Neural Geometry Lab](https://notes.lindgreendavid.com/posts/neural-geometry-lab-collapse) | Machine learning | [Lab](https://lindgreendavid.com/neural-geometry-lab/) | [Code](https://github.com/lindgreendavid/neural-geometry-lab) |
 | [Reaction Integrity Lab](https://notes.lindgreendavid.com/posts/reaction-integrity-lab-cleaning-leakage) | Chemistry and ML | [Lab](https://lindgreendavid.com/reaction-integrity-lab/) | [Code](https://github.com/lindgreendavid/reaction-integrity-lab) |
 | [Mathlab WASM](https://notes.lindgreendavid.com/posts/mathlab-wasm-root-finding) | Numerical analysis | [Lab](https://lindgreendavid.com/mathlab-wasm/) | [Code](https://github.com/lindgreendavid/mathlab-wasm) |
-| [FRB Atlas](https://notes.lindgreendavid.com/posts/frb-atlas-dispersion-measure) | Astrophysics | - | [Code](https://github.com/lindgreendavid/frb-atlas) |
+| [FRB Atlas](https://notes.lindgreendavid.com/posts/frb-atlas-dispersion-measure) | Astrophysics | [Lab](https://frb-atlas-interactive.lindgreendavid.workers.dev) | [Code](https://github.com/lindgreendavid/frb-atlas) |
 | [Neuro Signal Lab](https://notes.lindgreendavid.com/posts/neuro-signal-lab-p3b-robustness) | Neuroscience | [Lab](https://lindgreendavid.com/neuro-signal-lab/) | [Code](https://github.com/lindgreendavid/neuro-signal-lab) |
-| [Folding's Edge](https://notes.lindgreendavid.com/posts/foldings-edge-plddt-disorder) | Structural biology | - | [Code](https://github.com/lindgreendavid/foldings-edge) |
+| [Folding's Edge](https://notes.lindgreendavid.com/posts/foldings-edge-plddt-disorder) | Structural biology | [Lab](https://foldings-edge-interactive.lindgreendavid.workers.dev) | [Code](https://github.com/lindgreendavid/foldings-edge) |
 | [Snowflake Evolution Lab](https://notes.lindgreendavid.com/posts/snowflake-evolution-lab-individuality) | Evolution | [Lab](https://lindgreendavid.com/snowflake-evolution-lab/) | [Code](https://github.com/lindgreendavid/snowflake-evolution-lab) |
 | [Jovian Resonance Lab](https://notes.lindgreendavid.com/posts/jovian-resonance-lab-laplace-angle) | Celestial mechanics | [Lab](https://lindgreendavid.com/jovian-resonance-lab/) | [Code](https://github.com/lindgreendavid/jovian-resonance-lab) |
 | [Three-Body Lab](https://notes.lindgreendavid.com/posts/three-body-lab-chaos-boundary) | Physics | [Lab](https://three-body-lab-interactive.lindgreendavid.workers.dev) | [Code](https://github.com/lindgreendavid/three-body-lab) |
