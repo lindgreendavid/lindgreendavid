@@ -1,218 +1,51 @@
-<p align="center">
-  <img src="brand/lab-notes-mark.svg" width="112" alt="Lab Notes research-cycle mark">
-</p>
-
 # David Lindgreen
 
-### Building trustworthy data products from mathematical foundations to accessible interfaces
+Data and AI analyst in Frankfurt, Germany, building towards finance. Dual student at Sanofi (Smart Factory) and Provadis, and lead teacher for the Data Analytics bootcamp at Le Wagon.
 
-I work at the intersection of **responsible AI**, **data science**, **mathematics**, **analytics engineering**, and **scientific UI/UX**. My projects emphasize explicit assumptions, reproducible experiments, strong software architecture, and honest limits—not just attractive outputs. The portfolio shares a versioned [Lab Notes identity and research-interface standard](brand/README.md): one recognisable family, with discipline-specific accents that communicate rather than decorate.
+[Portfolio](https://lindgreendavid.com) · [Lab Notes](https://notes.lindgreendavid.com) · [LinkedIn](https://www.linkedin.com/in/david-lindgreen-625868303/) · [Email](mailto:lindgreendavid@gmail.com)
 
-## Current focus
+## Finance projects on public filings
 
-- Fairness and robustness under distribution shift
-- Uncertainty-aware machine learning and model evaluation
-- Neural representation geometry and generalization boundaries
-- Explainable, accessible research interfaces
-- Mathematical algorithms in Rust and WebAssembly
-- Data quality, observability, and reproducible analytics
-- Planetary dynamics, numerical adequacy, and interactive scientific explanation
-- Experimental evolution, multicellularity, and honest causal boundaries
-- Accessible science communication — physics, astrophysics, biology, chemistry, and neuroscience, held to the same bar as the AI work: a bounded question, real evidence (public data where possible), and honest limits, not a hot take
+Five connected tools on public SEC and ECB data, each with a method note, tests and its limits written down. They are educational: not investment advice, not credit ratings, not valuations of any company, and not independently reviewed. Built with AI assistance (Claude): I designed and directed them and I am responsible for checking them. The source is in [lindgreendavid.github.io](https://github.com/lindgreendavid/lindgreendavid.github.io).
 
-## Featured work
+| Project | What it does | Try it | Read |
+|---|---|---|---|
+| **Pharma Valuation Explorer** | Compares Novartis, AstraZeneca and GSK on one basis, then values AstraZeneca with a DCF. Sensitivities and an Excel model. | [Open](https://lindgreendavid.com/projects/pharma-valuation/) | [Method](https://lindgreendavid.com/projects/pharma-valuation/method/) |
+| **LBO Workbench** | A leveraged buyout on real SEC figures: sources and uses, debt schedule, IRR, MOIC and a value bridge. The deal is hypothetical. | [Open](https://lindgreendavid.com/projects/lbo-workbench/) | [Method](https://lindgreendavid.com/projects/lbo-workbench/method/) |
+| **Credit Risk Screen** | Scores 28 US pharma and biotech companies on leverage, interest cover and cash flow; stress test and Altman Z cross-check. | [Open](https://lindgreendavid.com/projects/credit-risk-screen/) | [Method](https://lindgreendavid.com/projects/credit-risk-screen/method/) |
+| **M&A Screening Workbench** | Screens the same companies against a hypothetical buyer brief with adjustable weights and data-gap flags. | [Open](https://lindgreendavid.com/projects/ma-screening/) | [Method](https://lindgreendavid.com/projects/ma-screening/method/) |
+| **Annual-Report Research Assistant** | Answers questions about the FY2025 20-F reports of Novartis, AstraZeneca and GSK with sources, calculations or refusals. Generates no text. | [Open](https://lindgreendavid.com/projects/research-assistant/) | [Method](https://lindgreendavid.com/projects/research-assistant/method/) |
 
-### [Lab Notes — read and explore the science hub](https://blog-interactive.lindgreendavid.workers.dev/)
+## Lab Notes: research with the limits stated
 
-An accessible, continuously growing editorial home for the portfolio's research: plain-language
-articles, a filterable evidence explorer, and a reusable four-step guide for reading scientific results.
-Every project is presented through the same inspectable structure — question, evidence, finding,
-and boundary — with direct routes into the underlying interactive laboratory and source code.
-The production site is live on Cloudflare Workers. [Source code](https://github.com/lindgreendavid/blog)
+Thirteen public analyses, each with code, data and a write-up that says what was tested, what was found and what it cannot show. Blinded or preregistered studies are labelled as such, and reproductions of known results are labelled too. All notes are at [notes.lindgreendavid.com](https://notes.lindgreendavid.com) ([source](https://github.com/lindgreendavid/blog)).
 
-`TypeScript` · `Science Communication` · `Interactive Learning` · `Accessibility` · `Scientific UI/UX`
+| Note | Field | Interactive lab | Code |
+|---|---|---|---|
+| [Data Contract Observatory](https://notes.lindgreendavid.com/posts/data-contract-observatory-revision-evidence) | Data engineering | [Lab](https://lindgreendavid.com/data-contract-observatory/) | [Code](https://github.com/lindgreendavid/data-contract-observatory) |
+| [Fairshift Lab](https://notes.lindgreendavid.com/posts/fairshift-lab-robustness) | Responsible AI | - | [Code](https://github.com/lindgreendavid/fairshift-lab) |
+| [Backtests lie](https://notes.lindgreendavid.com/posts/backtests-lie-selection-bias) | Quantitative finance | [Lab](https://lindgreendavid.com/backtests-lie/) | [Code](https://github.com/lindgreendavid/backtests-lie) |
+| [Climate Twin Frankfurt](https://notes.lindgreendavid.com/posts/climate-twin-frankfurt-heat-island) | Climate data | [Lab](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev) | [Code](https://github.com/lindgreendavid/climate-twin-frankfurt) |
+| [Neural Geometry Lab](https://notes.lindgreendavid.com/posts/neural-geometry-lab-collapse) | Machine learning | [Lab](https://lindgreendavid.com/neural-geometry-lab/) | [Code](https://github.com/lindgreendavid/neural-geometry-lab) |
+| [Reaction Integrity Lab](https://notes.lindgreendavid.com/posts/reaction-integrity-lab-cleaning-leakage) | Chemistry and ML | [Lab](https://lindgreendavid.com/reaction-integrity-lab/) | [Code](https://github.com/lindgreendavid/reaction-integrity-lab) |
+| [Mathlab WASM](https://notes.lindgreendavid.com/posts/mathlab-wasm-root-finding) | Numerical analysis | [Lab](https://lindgreendavid.com/mathlab-wasm/) | [Code](https://github.com/lindgreendavid/mathlab-wasm) |
+| [FRB Atlas](https://notes.lindgreendavid.com/posts/frb-atlas-dispersion-measure) | Astrophysics | - | [Code](https://github.com/lindgreendavid/frb-atlas) |
+| [Neuro Signal Lab](https://notes.lindgreendavid.com/posts/neuro-signal-lab-p3b-robustness) | Neuroscience | [Lab](https://lindgreendavid.com/neuro-signal-lab/) | [Code](https://github.com/lindgreendavid/neuro-signal-lab) |
+| [Folding's Edge](https://notes.lindgreendavid.com/posts/foldings-edge-plddt-disorder) | Structural biology | - | [Code](https://github.com/lindgreendavid/foldings-edge) |
+| [Snowflake Evolution Lab](https://notes.lindgreendavid.com/posts/snowflake-evolution-lab-individuality) | Evolution | [Lab](https://lindgreendavid.com/snowflake-evolution-lab/) | [Code](https://github.com/lindgreendavid/snowflake-evolution-lab) |
+| [Jovian Resonance Lab](https://notes.lindgreendavid.com/posts/jovian-resonance-lab-laplace-angle) | Celestial mechanics | [Lab](https://lindgreendavid.com/jovian-resonance-lab/) | [Code](https://github.com/lindgreendavid/jovian-resonance-lab) |
+| [Three-Body Lab](https://notes.lindgreendavid.com/posts/three-body-lab-chaos-boundary) | Physics | [Lab](https://three-body-lab-interactive.lindgreendavid.workers.dev) | [Code](https://github.com/lindgreendavid/three-body-lab) |
 
-### [Fairshift Lab — open the interactive laboratory](https://fairshift-lab.lindgreendavid.chatgpt.site)
+## Toolkit
 
-A reproducible Responsible AI laboratory for exploring how distribution shift changes probability calibration, threshold-sensitive decisions, performance, and group-fairness measurements. Visitors can manipulate the population and decision threshold, compare source and target reliability, and inspect uncertainty without installing anything. Version 1.3.0 adds a Robustness Lab — a preregistered synthetic stress study comparing two model families under label noise, measurement error, an unobserved subgroup, and structural misspecification — on top of v1.1's Policy Studio and v1.2's governed external evidence from real 1994 Census data. [Source code](https://github.com/lindgreendavid/fairshift-lab) · [v1.3.0 release](https://github.com/lindgreendavid/fairshift-lab/releases/tag/v1.3.0)
+Power BI, Snowflake, SQL, Python, Excel, Microsoft Power Platform, TypeScript, Rust and WebAssembly. Retrieval-augmented generation at an introductory level.
 
-`Python` · `TypeScript` · `Probability Calibration` · `Distribution Shift` · `Responsible AI` · `Scientific UI/UX`
+## How I work
 
-### [Data Contract Observatory — break a public-data pipeline safely](https://lindgreendavid.github.io/data-contract-observatory/)
+- A result is only as good as the list of things it does not know, so every project states its limits as prominently as its results.
+- Claims trace to a source file, a public dataset or a test. Where something is an estimate or an assumption, it says so.
+- AI assistance is disclosed on every project page and in the repositories.
 
-An inspectable observability case study built on the European Central Bank's official daily
-US dollar/euro reference-rate series. Product v1.0.0 separates one prospective live run, a
-7,010-prefix replay of the current historical vintage, and a nine-fault synthetic suite. The
-append-only `evidence` branch now records source hashes, normalized state and revisions between
-future runs. At release there is one real prospective run, not longitudinal evidence.
-[Source code](https://github.com/lindgreendavid/data-contract-observatory) · [v1.0.0 release](https://github.com/lindgreendavid/data-contract-observatory/releases/tag/v1.0.0)
+## Contact
 
-`Python` · `Data Contracts` · `Observability` · `SDMX` · `Public Data` · `Scientific UI/UX`
-
-### [FRB Atlas — open the interactive laboratory](https://frb-atlas-interactive.lindgreendavid.workers.dev)
-
-A reproducible reanalysis of the real, public CHIME/FRB Catalog 1 (536 fast radio bursts, Amiri et al. 2021): does the dispersion measure of repeating bursts actually differ from non-repeating ones, as the original paper's own preregistered test claims it doesn't? The frozen v0.1 study cleanly replicates the paper's pulse-width/bandwidth finding as a validation check, then reports a genuine discrepancy on dispersion measure — traced honestly to sample composition (two prolific nearby repeaters dominating the burst sample) rather than smoothed over. Product v1.0.0 preserves this study. [Source code](https://github.com/lindgreendavid/frb-atlas) · [v1.0.0 release](https://github.com/lindgreendavid/frb-atlas/releases/tag/v1.0.0)
-
-`Python` · `TypeScript` · `Astrophysics` · `Statistical Inference` · `Real Public Data` · `Scientific UI/UX`
-
-### [Folding's Edge — open the interactive laboratory](https://foldings-edge-interactive.lindgreendavid.workers.dev)
-
-A reproducible test of how well AlphaFold2's per-residue confidence score (pLDDT) predicts real, curated intrinsic disorder. 387 human proteins from DisProt (228,662 residues) joined to real AlphaFold DB predictions by UniProt accession — no model training, just a fresh statistical test of a specific published claim (Alderson et al. 2023, PNAS). The frozen v0.1 study confirms pLDDT is a strong overall signal (43-point median gap, p≈0) but names exactly where it fails: precision collapses on regions that can conditionally fold (6.3% vs. 31% baseline) and on disorder evidenced by HDX-MS, with specific proteins named rather than only aggregate rates. Its hero animation traces one of those named proteins' real per-residue pLDDT values as a wiggling chain, and an interactive threshold explorer lets you drag the pLDDT cutoff and watch precision/recall/F1/MCC update live from the real data, with one click back to the actual preregistered threshold. Product v1.0.0 preserves this study. [Source code](https://github.com/lindgreendavid/foldings-edge) · [v1.0.0 release](https://github.com/lindgreendavid/foldings-edge/releases/tag/v1.0.0)
-
-`Python` · `TypeScript` · `Structural Biology` · `Statistical Inference` · `Real Public Data` · `Scientific UI/UX`
-
-### [Three-Body Lab — open the interactive laboratory](https://three-body-lab-interactive.lindgreendavid.workers.dev)
-
-A reproducible computational-physics laboratory mapping the boundary between quasi-periodic and chaotic motion in the planar gravitational three-body problem, via empirically estimated Lyapunov exponents. Visitors can watch a reference trajectory and a near-identical perturbed twin diverge in real time, export a clip of the divergence, and inspect a frozen, preregistered sweep that tests the figure-eight, Lagrange equilateral, and Euler collinear special solutions against that boundary. The frozen v0.1 study does not claim to solve the three-body problem — it reports what a disclosed numerical method actually finds, including two hypotheses it falsified. Product v1.0.0 preserves this study. [Source code](https://github.com/lindgreendavid/three-body-lab) · [v1.0.0 release](https://github.com/lindgreendavid/three-body-lab/releases/tag/v1.0.0)
-
-`Python` · `TypeScript` · `Computational Physics` · `Chaos Theory` · `Numerical Integration` · `Scientific UI/UX`
-
-### [Climate Twin Frankfurt — open the interactive laboratory](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev)
-
-A reproducible measurement of Frankfurt's urban heat island from real DWD station records: the inner-city Frankfurt/Main-Westend station against Frankfurt/Main — DWD's own designated reference counterpart (physically the airport, disclosed rather than glossed over) — across every valid paired day from 1985 to 2025. The frozen v0.1 study finds a measurable but modest gap (+0.455°C, 95% CI [0.432, 0.478], excludes zero) and no statistically significant long-term trend over the 40-year record (p=0.118) — reported plainly rather than reworded into a more dramatic story. Includes an interactive station map computing the real haversine distance and bearing between the two stations from their actual coordinates, no basemap library required. Product v1.0.0 preserves this study. [Source code](https://github.com/lindgreendavid/climate-twin-frankfurt) · [v1.0.0 release](https://github.com/lindgreendavid/climate-twin-frankfurt/releases/tag/v1.0.0)
-
-`Python` · `TypeScript` · `Climate Data` · `Statistical Inference` · `Real Public Data` · `Scientific UI/UX`
-
-### [Jovian Resonance Lab — watch Jupiter's moons keep time](https://lindgreendavid.github.io/jovian-resonance-lab/)
-
-A two-stage, protocol-frozen model study of the Io–Europa–Ganymede Laplace angle against 14,610
-daily NASA/JPL JUP365 epochs. The original 2001–2030 ablation found the expected model ordering but
-exposed an unconverged nominal trace. Product v1.0.0 adds a non-overlapping 2031–2040 replication:
-G4J2 again beat K2, G3, and G4 at a common step, the medium-to-fine trace difference was 0.5735°
-RMSE, the estimated order was 1.984, and the fine trace reached 0.4699° RMSE against JUP365. Every
-frozen v1 gate passed. The 2031–2040 values are ephemeris predictions and the integration restarts
-from JUP365 in 2031—not future observations or an uninterrupted forty-year forecast. The interactive
-site exposes the orbit, model, and convergence evidence. [Source code](https://github.com/lindgreendavid/jovian-resonance-lab) · [v1.0.0 release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v1.0.0) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/jovian-resonance-lab-laplace-angle)
-
-`Python` · `JavaScript` · `Planetary Dynamics` · `Celestial Mechanics` · `JPL Horizons` · `Scientific UI/UX`
-
-### [Snowflake Evolution Lab — watch a new level of individuality emerge](https://lindgreendavid.github.io/snowflake-evolution-lab/)
-
-A stable, protocol-frozen research product built from public MuLTEE source data. The historical
-v0.1 morphology study found positive cell-shape/cluster-size associations in all five anaerobic
-lines. The v1.0 intervention now shows that engineered tetraploidy increases cluster radius in both
-tested backgrounds, while the longitudinal comparison rejects tetraploidy as sufficient: at
-transfer 1,000, mean PA radius is 8.859× mean PM radius despite widespread tetraploidy. The
-interactive laboratory exposes all 16 chromosome copy numbers, the engineered 2N/4N contrast, and
-the PA/PM trajectory while keeping measured data separate from explanatory geometry. This is a
-source-author-data reanalysis, not an independent wet-lab replication or a measured entanglement
-threshold. Product v1.0.1 clarifies the animation's bonds, steric contacts, and modelled fractures
-without changing either frozen study. [Source code](https://github.com/lindgreendavid/snowflake-evolution-lab) · [v1.0.1 release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v1.0.1) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/snowflake-evolution-lab-individuality)
-
-`Python` · `JavaScript` · `Experimental Evolution` · `Multicellularity` · `Reproducibility` · `Scientific UI/UX`
-
-### [Neural Geometry Lab — watch a representation reorganize](https://lindgreendavid.github.io/neural-geometry-lab/)
-
-A protocol-frozen test of neural collapse after interpolation on the official writer-disjoint UCI
-Optical Digits split. Thirty 600-epoch MLP runs compare clean, deterministic long-tail, and 20%
-symmetric label-noise training against a multinomial logistic reference. Two of four directional
-gates pass: NC4 remains no worse after zero error in 10/10 clean seeds, and imbalance worsens NC2
-in 10/10 paired seeds; continued NC1 and NC2 improvement each reach only 7/10. Clean median
-held-out accuracy is 96.27%, while the noisy condition is only 81.64% despite a slightly lower
-median NC2. The Geometry Theatre replays actual saved checkpoints using fixed-basis PCA for display
-while reporting every NC endpoint in the full nine-dimensional representation. This is one small
-architecture and dataset—not evidence that collapse universally causes or certifies generalization.
-[Source code](https://github.com/lindgreendavid/neural-geometry-lab) · [v1.0.0 release](https://github.com/lindgreendavid/neural-geometry-lab/releases/tag/v1.0.0) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/neural-geometry-lab-collapse)
-
-`Python` · `Machine Learning` · `Neural Collapse` · `Representation Geometry` · `Reproducibility` · `Scientific UI/UX`
-
-### [Neuro Signal Lab — inspect the EEG result](https://lindgreendavid.github.io/neuro-signal-lab/)
-
-A reproducible cross-dataset test of a fixed P3b endpoint in public EEG data. The electrode, 300–600 ms window, target-minus-standard contrast, artifact threshold, participant-level inference, and stopping rule were frozen before the external amplitudes were inspected. All 13 OpenNeuro participants showed a positive contrast; the mean was +5.65 µV with a 95% confidence interval of [+4.83, +6.48]. The interactive laboratory exposes every participant and both prespecified artifact-threshold sensitivity analyses while keeping the confirmatory endpoint visibly fixed. Product v1.0.0 stabilizes the research product without changing the frozen endpoint or result. [Source code](https://github.com/lindgreendavid/neuro-signal-lab) · [v1.0.0 release](https://github.com/lindgreendavid/neuro-signal-lab/releases/tag/v1.0.0)
-
-`Python` · `EEG` · `Neuroscience` · `Statistical Inference` · `OpenNeuro` · `Scientific UI/UX`
-
-### [Reaction Integrity Lab — inspect the benchmark](https://lindgreendavid.github.io/reaction-integrity-lab/)
-
-A transparent known-result reproduction of ORDerly's reaction-condition benchmark. Research
-product v1.0.0 verifies the primary paper, both versioned Figshare sources, official cleaning logs,
-and the complete four-variant archive. All four frequency baselines reproduce within 0.46
-percentage points of the final peer-reviewed values. An exact audit of 691,142 released reactions finds zero
-train/test collisions on the declared reactant/product input key and zero exact full-record
-duplicates across the split. The prespecified v1 audit finds 5.78% canonical product overlap,
-80.84% nonempty product-scaffold overlap, and 60.5% sampled maximum product similarity ≥0.70.
-Neural-model scores remain published references because exact checkpoint/prediction bundles are not
-in the versioned public release; product overlap is not proof of patent-family leakage or wet-lab failure.
-[Source code](https://github.com/lindgreendavid/reaction-integrity-lab) · [v1.0.0 release](https://github.com/lindgreendavid/reaction-integrity-lab/releases/tag/v1.0.0) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/reaction-integrity-lab-cleaning-leakage) · [Research report](https://github.com/lindgreendavid/reaction-integrity-lab/blob/main/docs/research-report.md)
-
-`Python` · `Computational Chemistry` · `Machine Learning` · `Data Provenance` · `Reproducibility` · `Scientific UI/UX`
-
-### [Mathlab WASM — inspect root finding](https://lindgreendavid.github.io/mathlab-wasm/)
-
-An interactive Rust/WebAssembly laboratory for understanding what root-finding methods certify and
-why raw residual alone can mislead. Stable product v1.0.0 preserves the v0.1 solver and v0.2
-safeguarded-method studies, then adds five prespecified conditioning cases. Equal forward error
-coexists with residuals spanning sixteen orders of magnitude, while the repeated-root case reports
-the simple-root diagnostic as unavailable. All frozen checks pass under the explicitly stated
-additive perturbation model. The selected teaching suites are not a prevalence estimate, rigorous
-enclosure, or production-library equivalence test. [Source code](https://github.com/lindgreendavid/mathlab-wasm) · [Lab Notes article](https://blog-interactive.lindgreendavid.workers.dev/posts/mathlab-wasm-root-finding) · [v1.0.0 release](https://github.com/lindgreendavid/mathlab-wasm/releases/tag/v1.0.0)
-
-`Rust` · `WebAssembly` · `Numerical Analysis` · `Scientific Computing` · `Accessibility` · `Interactive Learning`
-
-### [Kryptographie WASM](https://github.com/lindgreendavid/kryptographie-wasm)
-
-An interactive cryptography learning application whose cryptographic domain logic is implemented in Rust and delivered through WebAssembly. It combines mathematical explanation, typed error handling, official test vectors, browser tests, accessibility checks, and a documented security model.
-
-`Rust` · `WebAssembly` · `Cryptography` · `Accessible Education`
-
-## Portfolio roadmap
-
-Full researched roadmap, including grounded data sources for every future entry: [ROADMAP.md](ROADMAP.md).
-
-| Project | Question | Primary evidence | Status |
-| --- | --- | --- | --- |
-| [Lab Notes](https://blog-interactive.lindgreendavid.workers.dev/) | How can technical studies become an inspectable, reusable learning experience? | Verified project reports, article citations, interactive laboratories | Live and continuously expanding |
-| Fairshift Lab | Does measured fairness remain stable under distribution shift, noise, and misspecification? | ML evaluation, causal clarity, research rigor | Shipped, v1.3.0 |
-| [Climate Twin Frankfurt](https://climate-twin-frankfurt-interactive.lindgreendavid.workers.dev) | How much warmer is urban Frankfurt than its rural surroundings, with what uncertainty, and how has that gap trended over time? | Real paired urban/rural DWD Climate Data Center station records | Product v1.0.0; frozen study v0.1 |
-| [Mathlab WASM](https://lindgreendavid.github.io/mathlab-wasm/) | When does a small residual track root error—and when does conditioning break that intuition? | NIST DLMF, Higham (2002), Brent (1971), seventeen versioned Rust/WASM cases | **Product v1.0.0.** Solver, safeguard, and conditioning studies complete. [Release](https://github.com/lindgreendavid/mathlab-wasm/releases/tag/v1.0.0) |
-| [Data Contract Observatory](https://lindgreendavid.github.io/data-contract-observatory/) | When does a public-data response cease to satisfy its declared operational contract? | Official ECB SDMX series, prospective ledger, retrospective replay, synthetic fault suite | **Product v1.0.0.** One prospective run; longitudinal evidence is beginning. [Release](https://github.com/lindgreendavid/data-contract-observatory/releases/tag/v1.0.0) |
-| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Do ORDerly's published reaction-condition results survive an exact reproduction? | Primary paper, complete checksum-verified archive, reproduced baselines and prespecified similarity audit | **Product v1.0.0.** Stable audited result; neural-model cells remain published references. [Release](https://github.com/lindgreendavid/reaction-integrity-lab/releases/tag/v1.0.0) |
-| [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Which minimum dynamical ingredients reproduce the Galilean-moon Laplace angle? | 14,610 JUP365 epochs, two frozen intervals, common-step ablation and convergence gates | **Product v1.0.0.** Ordering and every numerical gate replicated. [Release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v1.0.0) |
-| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Does engineered tetraploidy increase phenotype—and is it sufficient for macroscopic size? | Four engineered strains per group plus ten evolved lines through transfer 1,000 | **Product v1.0.1; frozen study v1.0.** Tetraploidy increases radius but is not sufficient; the entanglement threshold remains unmeasured. [Release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v1.0.1) |
-| [Neural Geometry Lab](https://lindgreendavid.github.io/neural-geometry-lab/) | After zero training error, does neural-collapse geometry keep improving—and track unseen-writer accuracy? | 30 frozen MLP runs, three stress conditions, and the official writer-disjoint UCI Optical Digits split | **Product v1.0.0.** Two of four gates pass; one geometry coordinate does not certify generalization. [Release](https://github.com/lindgreendavid/neural-geometry-lab/releases/tag/v1.0.0) |
-
-## Science communication & research track
-
-A second track, editorially distinct from the responsible-AI/data-engineering work above. Every project belongs to the same Lab Notes identity system while retaining a field-specific accent and explanatory visual language. Same standard throughout: every piece states what it contributes, what it found, and what remains unresolved — not just an explanation of settled science. Two formats:
-
-- **Explainer builds** — an interactive simulation, design, or animation of a real phenomenon currently being discussed or studied, with the underlying model and its limits made explicit.
-- **Research notes** — a short, evidence-grounded, accessible thesis built on public data or literature, testing a specific claim rather than speculating.
-
-| Project | Field | Open question | Status |
-| --- | --- | --- | --- |
-| [Three-Body Lab](https://three-body-lab-interactive.lindgreendavid.workers.dev) | Physics | Where does finite-time divergence appear under the frozen numerical method? | **Product v1.0.0; frozen study v0.1.** [Release](https://github.com/lindgreendavid/three-body-lab/releases/tag/v1.0.0) |
-| [FRB Atlas](https://frb-atlas-interactive.lindgreendavid.workers.dev) | Astrophysics | Which CHIME/FRB Catalog 1 comparisons replicate under the frozen analysis? | **Product v1.0.0; frozen study v0.1.** [Release](https://github.com/lindgreendavid/frb-atlas/releases/tag/v1.0.0) |
-| [Folding's Edge](https://foldings-edge-interactive.lindgreendavid.workers.dev) | Biology | When does AlphaFold confidence predict curated disorder? | **Product v1.0.0; frozen study v0.1.** [Release](https://github.com/lindgreendavid/foldings-edge/releases/tag/v1.0.0) |
-| [Neuro Signal Lab](https://lindgreendavid.github.io/neuro-signal-lab/) | Neuroscience | Does a fixed P3b target enhancement survive an independent auditory dataset? | **Product v1.0.0; frozen endpoint and result.** [Release](https://github.com/lindgreendavid/neuro-signal-lab/releases/tag/v1.0.0) |
-| [Reaction Integrity Lab](https://lindgreendavid.github.io/reaction-integrity-lab/) | Computational chemistry / ML | Does ORDerly's published condition-prediction gap survive an exact reproduction? | **Product v1.0.0.** Four baselines and prespecified similarity/provenance audit complete; neural-model artifacts remain unavailable. [Release](https://github.com/lindgreendavid/reaction-integrity-lab/releases/tag/v1.0.0) |
-| [Jovian Resonance Lab](https://lindgreendavid.github.io/jovian-resonance-lab/) | Planetary dynamics / celestial mechanics | Does the minimum-force ordering replicate on a new JUP365 interval with numerical gates? | **Product v1.0.0.** Two frozen studies; temporal ordering, convergence, and reference-adequacy gates passed. [Release](https://github.com/lindgreendavid/jovian-resonance-lab/releases/tag/v1.0.0) |
-| [Snowflake Evolution Lab](https://lindgreendavid.github.io/snowflake-evolution-lab/) | Experimental evolution / multicellularity | Does engineered tetraploidy help, and is it sufficient for the macroscopic phenotype? | **Product v1.0.1; frozen study v1.0.** Exact intervention gate and longitudinal insufficiency gate pass; historical v0.1 morphology result preserved. [Release](https://github.com/lindgreendavid/snowflake-evolution-lab/releases/tag/v1.0.1) |
-| [Neural Geometry Lab](https://lindgreendavid.github.io/neural-geometry-lab/) | Machine learning / representation geometry | Does terminal neural-collapse geometry reliably accompany writer-disjoint generalization? | **Product v1.0.0.** NC4 stability and the imbalance boundary pass; clean NC1/NC2 continuation gates do not. [Release](https://github.com/lindgreendavid/neural-geometry-lab/releases/tag/v1.0.0) |
-
-The complete research collection is indexed in Lab Notes. Product and study versions remain
-separate: Jovian Resonance Lab product v1.0.0 preserves the original v0.1 analysis and adds a second,
-prospectively frozen validation rather than rewriting the historical endpoint. Snowflake Evolution
-Lab product v1.0.1 preserves the v0.1 morphology study and frozen v1.0 result; its clarified
-animation separates junctions, steric contacts, and fractures. The study adds a source-compatible
-genome-duplication intervention and sufficiency evaluation. It does not claim an independent
-wet-lab replication or a measured genomic–mechanical threshold.
-Neural Geometry Lab is a separate protocol-frozen v1.0 study: its ten seeds per condition measure
-algorithmic sensitivity on one fixed writer split, not population uncertainty, and its PCA scene
-is explicitly separated from full-dimensional NC1–NC4 endpoints.
-
-## Engineering principles
-
-1. **Research questions before dashboards.** Every analytical project begins with a falsifiable, bounded question and a protocol appropriate to its design. Known-result reproductions are labelled explicitly rather than presented as blinded or preregistered work.
-2. **Evidence before claims.** Baselines, uncertainty, negative results, and limitations are first-class outputs — falsified hypotheses are reported, not quietly reframed.
-3. **Sources are verified, not assumed.** Every citation and external claim is checked against a primary source before it ships — including in a published paper's own stated methodology, not just its abstract.
-4. **Architecture proportional to the problem.** Clear modules and contracts matter; complexity without evidence does not.
-5. **Reproducibility by default.** Locked dependencies, seeds, tests, CI, citation metadata, versioned releases, and — where the underlying data allows it — a fetch-at-build-time pipeline instead of committing raw third-party data.
-6. **Responsible delivery.** Accessibility (WCAG AA, automatically checked), security, privacy, provenance, bias, and prohibited uses are documented for every release.
-
-## Skills demonstrated
-
-`Python` · `Rust` · `TypeScript` · `WebAssembly` · `Machine Learning` · `Statistics` · `Statistical Inference` · `Causal Reasoning` · `Data Analytics` · `Testing` · `CI/CD` · `Security` · `Accessibility (WCAG AA)` · `UI/UX` · `Technical Writing`
-
-## Connect
-
-Explore the repositories above or open a GitHub discussion on the relevant project. I am especially interested in work that connects rigorous quantitative methods with products people can understand and trust.
+Open to a conversation about data, AI and finance roles later in my studies, and about feedback on any of the above. If you spot something I got wrong, please write to [lindgreendavid@gmail.com](mailto:lindgreendavid@gmail.com).
